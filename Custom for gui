@@ -1,0 +1,302 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Customs = Instance.new("ScreenGui")
+local Gradient2 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Title = Instance.new("TextLabel")
+local idk = Instance.new("TextButton")
+local Openbutton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local tweenedButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+
+--Properties:
+
+Customs.Name = "Customs"
+Customs.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Customs.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Gradient2.Name = "Gradient2"
+Gradient2.Parent = Customs
+Gradient2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Gradient2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Gradient2.BorderSizePixel = 0
+Gradient2.Size = UDim2.new(0, 619, 0, 354)
+Gradient2.Visible = false
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = Gradient2
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(68, 28, 100)), ColorSequenceKeypoint.new(0.47, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4))}
+UIGradient.Parent = Gradient2
+
+Title.Name = "Title"
+Title.Parent = Gradient2
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.292407095, 0, 0, 0)
+Title.Size = UDim2.new(0, 200, 0, 50)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Built in customs"
+Title.TextColor3 = Color3.fromRGB(162, 139, 100)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+idk.Name = "idk"
+idk.Parent = Gradient2
+idk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+idk.BackgroundTransparency = 1.000
+idk.Position = UDim2.new(0, 0, 0.141242936, 0)
+idk.Size = UDim2.new(0, 240, 0, 50)
+idk.Font = Enum.Font.SourceSans
+idk.Text = "UltraChara custom"
+idk.TextColor3 = Color3.fromRGB(162, 139, 100)
+idk.TextScaled = true
+idk.TextSize = 14.000
+idk.TextStrokeColor3 = Color3.fromRGB(162, 139, 100)
+idk.TextWrapped = true
+
+Openbutton.Name = "Openbutton"
+Openbutton.Parent = Customs
+Openbutton.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Openbutton.Position = UDim2.new(0.00512445113, 0, 0.713432848, -25)
+Openbutton.Size = UDim2.new(0, 200, 0, 70)
+Openbutton.Visible = false
+Openbutton.Font = Enum.Font.SourceSans
+Openbutton.Text = "Custom "
+Openbutton.TextColor3 = Color3.fromRGB(126, 126, 126)
+Openbutton.TextScaled = true
+Openbutton.TextSize = 14.000
+Openbutton.TextWrapped = true
+
+UICorner_2.Parent = Openbutton
+
+tweenedButton.Name = "tweened Button"
+tweenedButton.Parent = Customs
+tweenedButton.AnchorPoint = Vector2.new(0.5, 0.5)
+tweenedButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tweenedButton.Position = UDim2.new(0.5, -100, 0.5, -500)
+tweenedButton.Size = UDim2.new(0, 200, 0, 50)
+tweenedButton.Font = Enum.Font.SourceSans
+tweenedButton.Text = "Load customs"
+tweenedButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+tweenedButton.TextSize = 14.000
+
+UICorner_3.Parent = tweenedButton
+
+-- Scripts:
+
+local function PAZNZT_fake_script() -- idk.Hatechara Loader 
+	local script = Instance.new('LocalScript', idk)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.StarterGui:SetCore("SendNotification",  {
+			Title = "Loading script";
+			Text = "Loadin ebic :), "..game.Players.LocalPlayer.DisplayName;
+			Icon = game.Players:GetUserThumbnailAsync(game.Players.LocalPlayer.UserId, "HeadShot", Enum.ThumbnailSize.Size100x100);
+			Duration = 10;
+		})
+		
+		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, true)
+		game.Players.LocalPlayer.PlayerGui.CharacterSelection.Character.Value = "Chara"
+		wait(1)
+		game.Players.LocalPlayer.Backpack:WaitForChild("Main").CharaMoves.Animations.Idle.AnimationId = "rbxassetid://5657147855"
+		game.Players.LocalPlayer.Backpack:WaitForChild("Main").CharaMoves.Animations.Run.AnimationId = "rbxassetid://5411068397"
+		game.Players.LocalPlayer.Backpack:WaitForChild("Main").CharaMoves.Animations.Block.AnimationId = "rbxassetid://5657245133"
+		wait(3)
+		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, true)
+		local music = Instance.new("Sound",game.Players.LocalPlayer:WaitForChild("StarterPlaylist"))
+		music.Volume = 1
+		music.SoundId = "rbxassetid://6239664479"
+		music.Looped = true
+		music:Play()
+	
+		game.Players.LocalPlayer.PlayerGui.UI.Ui.StaminaBar.Bar.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		game.Players.LocalPlayer.PlayerGui.UI.Ui.ManaBar.Bar.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		game.Players.LocalPlayer.Character.Head.HealthBar.Frame.PName.TextColor3 = Color3.fromRGB(255, 255, 255)
+		game.Players.LocalPlayer.Character.Head.HealthBar.Frame.PName.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		--transform
+	
+		local A_1 = 
+			{
+				[1] = getrenv()._G.Pass, 
+				[2] = "Chatted", 
+				[3] = "ugh",
+				[4] = Color3.fromRGB(255, 0, 0)
+			}
+		local Event = game:GetService("ReplicatedStorage").Remotes.Events
+		Event:FireServer(A_1)
+		wait(1.6)
+	
+		local Anim = Instance.new("Animation")
+		Anim.AnimationId = "rbxassetid://7004737889"
+		local k = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+		k:Play() k:AdjustSpeed(1)
+	
+		wait(4)
+		local A_1 = 
+			{
+				[1] = getrenv()._G.Pass, 
+				[2] = "Chatted", 
+				[3] = "Finally.",
+				[4] = Color3.fromRGB(255, 0, 0)
+			}
+		local Event = game:GetService("ReplicatedStorage").Remotes.Events
+		Event:FireServer(A_1)
+		wait(1.6)
+	
+		local A_1 = 
+			{
+				[1] = getrenv()._G.Pass, 
+				[2] = "Chatted", 
+				[3] = "I ABSORBED FRISK SOUL.",
+				[4] = Color3.fromRGB(255, 0, 0)
+			}
+		local Event = game:GetService("ReplicatedStorage").Remotes.Events
+		Event:FireServer(A_1)
+		wait(1.6)
+	
+		--hearth
+		spawn(function()
+	
+			char = game.Players.LocalPlayer.Character
+			spawn(function()
+				for _,v in pairs(game.ReplicatedStorage.Resources.OtherEffects:GetDescendants()) do
+					if v.Name == 'Heart' then
+						clone12 = v:Clone()
+						clone12.Parent = game.Players.LocalPlayer.Character
+						clone12.Transparency = 0.4
+						clone12.Color = Color3.fromRGB(255, 0, 0)
+						weld = Instance.new('Weld',clone12)
+						weld.Part0 = clone12
+						weld.Part1 = char.Torso
+						clone12.Name = 'Heart1'
+						clone12.Anchored = false
+						weld.C0 = CFrame.new(0, -0.3, 0.5)
+						clone12.Size = clone12.Size/1.3
+					end
+				end
+			end)
+	
+			char = game.Players.LocalPlayer.Character
+			spawn(function()
+				for _,v in pairs(game.ReplicatedStorage.Resources.OtherEffects:GetDescendants()) do
+					if v.Name == 'Heart' then
+						clone12 = v:Clone()
+						clone12.Parent = game.Players.LocalPlayer.Character
+						clone12.Transparency = 0.45
+						clone12.Color = Color3.fromRGB(255, 255, 255)
+						weld = Instance.new('Weld',clone12)
+						weld.Part0 = clone12
+						weld.Part1 = char.Torso
+						clone12.Name = 'Heart2'
+						An = {0, 0, 179.48}
+						Angle = CFrame.fromEulerAnglesXYZ(math.rad(An[1]), math.rad(An[2]),math.rad(An[3]))
+						clone12.Anchored = false
+						weld.C0 = CFrame.new(0, -0.3, 0.5)
+						clone12.Size = clone12.Size/1.6
+					end
+				end
+			end)
+	
+	
+			spawn(function()
+				repeat
+					for hue1 = 0, 1, 2/360 do
+						wait()
+						for _,v in pairs(char:GetDescendants()) do
+							if v.Name == 'Heart1' then
+								v.Color = Color3.fromRGB(255, 0, 0)
+							end
+						end
+						spawn(function()
+							for _,v in pairs(char.BadTimeEye:GetDescendants()) do
+								if v.Name == 'ParticleEmitter' then
+									v.Color = ColorSequence.new(255, 0, 0)
+								elseif v.Name == 'Beam' then
+									v.Color = Color3.fromRGB(255, 0, 0)
+								end
+							end
+						end)
+					end
+				until jjjjoe == false
+			end)
+	
+		end)
+	
+	
+		--Knife
+		player = game.Players.LocalPlayer
+		char = player.Character
+		for _,v in pairs(game.ReplicatedStorage.Weapons:GetChildren()) do
+			if v.Name == 'RelKnife' then
+				clone1 = v:Clone()
+				clone1.Name = 'Knife'
+				clone1.ToyKnife:Destroy()
+				clone1.Parent = char
+				clone1.Anchored = false
+				clone1.Mesh.Scale = clone1.Mesh.Scale/1.5
+				weld = Instance.new('Weld',clone1)
+				weld.Part0 = clone1
+				weld.Part1 = char['Left Arm']
+				clone1.Name = 'Knife'
+				An = {90,0,0}
+				Angle = CFrame.fromEulerAnglesXYZ(math.rad(An[1]), math.rad(An[2]),math.rad(An[3]))
+				weld.C0 = CFrame.new(0,-0.8,0.8)*Angle
+				clone1.Transparency = 0
+			end
+		end
+	
+		--removes
+		game.Players.LocalPlayer.Character["FullHateMode"]:Destroy()
+		game.Players.LocalPlayer.Character["HateMode"]:Destroy()
+		game.Players.LocalPlayer.Character["Karma"]:Destroy()
+		game.Players.LocalPlayer.Character["RealKnife"]:Destroy()
+		game.Players.LocalPlayer.Character["HeartLocket"]:Destroy()
+		game.Players.LocalPlayer.Character["HateArm"]:Destroy()
+	end)
+end
+coroutine.wrap(PAZNZT_fake_script)()
+local function PAXXOSG_fake_script() -- Gradient2.Dragify 
+	local script = Instance.new('LocalScript', Gradient2)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(PAXXOSG_fake_script)()
+local function AVZI_fake_script() -- Openbutton.LocalScript 
+	local script = Instance.new('LocalScript', Openbutton)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Gradient2.Visible = not script.Parent.Parent.Gradient2.Visible
+	end)
+end
+coroutine.wrap(AVZI_fake_script)()
+local function SCFS_fake_script() -- tweenedButton.Go down 
+	local script = Instance.new('LocalScript', tweenedButton)
+
+	wait(5)
+	script.Parent:TweenPosition(UDim2.new(0.625, -171,0.564, -96),"Out","Elastic",1)
+	
+end
+coroutine.wrap(SCFS_fake_script)()
+local function HVIMQ_fake_script() -- tweenedButton.Size 
+	local script = Instance.new('LocalScript', tweenedButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Text = "ok"
+		script.Parent.TextSize = 100
+		script.Parent:TweenSize(UDim2.new(0, 619,0, 354),"Out","Linear",1)
+		wait(1)
+		script.Parent:TweenPosition(UDim2.new(2, 0,0.493, -25),"Out","Elastic",1)
+		wait(1)
+		script.Parent.Parent.Openbutton.Visible = true
+		script.Parent:Destroy()
+	end)
+end
+coroutine.wrap(HVIMQ_fake_script)()
