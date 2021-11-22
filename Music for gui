@@ -1,0 +1,2276 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Music = Instance.new("ScreenGui")
+local Music_2 = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local Stuff = Instance.new("Folder")
+local Frame1 = Instance.new("Frame")
+local Loop = Instance.new("TextButton")
+local AmbientShadow = Instance.new("ImageLabel")
+local PenumbraShadow = Instance.new("ImageLabel")
+local UmbraShadow = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local Pause = Instance.new("TextButton")
+local AmbientShadow_2 = Instance.new("ImageLabel")
+local PenumbraShadow_2 = Instance.new("ImageLabel")
+local UmbraShadow_2 = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+local Play = Instance.new("TextButton")
+local AmbientShadow_3 = Instance.new("ImageLabel")
+local PenumbraShadow_3 = Instance.new("ImageLabel")
+local UmbraShadow_3 = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local Playlist = Instance.new("TextButton")
+local AmbientShadow_4 = Instance.new("ImageLabel")
+local PenumbraShadow_4 = Instance.new("ImageLabel")
+local UmbraShadow_4 = Instance.new("ImageLabel")
+local UICorner_5 = Instance.new("UICorner")
+local Stop = Instance.new("TextButton")
+local AmbientShadow_5 = Instance.new("ImageLabel")
+local PenumbraShadow_5 = Instance.new("ImageLabel")
+local UmbraShadow_5 = Instance.new("ImageLabel")
+local UICorner_6 = Instance.new("UICorner")
+local Volume = Instance.new("TextBox")
+local AmbientShadow_6 = Instance.new("ImageLabel")
+local PenumbraShadow_6 = Instance.new("ImageLabel")
+local UmbraShadow_6 = Instance.new("ImageLabel")
+local UICorner_7 = Instance.new("UICorner")
+local id = Instance.new("TextBox")
+local AmbientShadow_7 = Instance.new("ImageLabel")
+local PenumbraShadow_7 = Instance.new("ImageLabel")
+local UmbraShadow_7 = Instance.new("ImageLabel")
+local UICorner_8 = Instance.new("UICorner")
+local UIListLayout = Instance.new("UIListLayout")
+local Music_remover = Instance.new("TextButton")
+local AmbientShadow_8 = Instance.new("ImageLabel")
+local PenumbraShadow_8 = Instance.new("ImageLabel")
+local UmbraShadow_8 = Instance.new("ImageLabel")
+local UICorner_9 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local tings = Instance.new("Frame")
+local Frame = Instance.new("ImageLabel")
+local AmbientShadow_9 = Instance.new("ImageLabel")
+local PenumbraShadow_9 = Instance.new("ImageLabel")
+local UmbraShadow_9 = Instance.new("ImageLabel")
+local Frame_2 = Instance.new("ImageLabel")
+local AmbientShadow_10 = Instance.new("ImageLabel")
+local PenumbraShadow_10 = Instance.new("ImageLabel")
+local UmbraShadow_10 = Instance.new("ImageLabel")
+local Frame_3 = Instance.new("ImageLabel")
+local AmbientShadow_11 = Instance.new("ImageLabel")
+local PenumbraShadow_11 = Instance.new("ImageLabel")
+local UmbraShadow_11 = Instance.new("ImageLabel")
+local Frame_4 = Instance.new("ImageLabel")
+local AmbientShadow_12 = Instance.new("ImageLabel")
+local PenumbraShadow_12 = Instance.new("ImageLabel")
+local UmbraShadow_12 = Instance.new("ImageLabel")
+local Frame_5 = Instance.new("ImageLabel")
+local AmbientShadow_13 = Instance.new("ImageLabel")
+local PenumbraShadow_13 = Instance.new("ImageLabel")
+local UmbraShadow_13 = Instance.new("ImageLabel")
+local Frame_6 = Instance.new("ImageLabel")
+local AmbientShadow_14 = Instance.new("ImageLabel")
+local PenumbraShadow_14 = Instance.new("ImageLabel")
+local UmbraShadow_14 = Instance.new("ImageLabel")
+local Frame_7 = Instance.new("ImageLabel")
+local AmbientShadow_15 = Instance.new("ImageLabel")
+local PenumbraShadow_15 = Instance.new("ImageLabel")
+local UmbraShadow_15 = Instance.new("ImageLabel")
+local Frame_8 = Instance.new("ImageLabel")
+local AmbientShadow_16 = Instance.new("ImageLabel")
+local PenumbraShadow_16 = Instance.new("ImageLabel")
+local UmbraShadow_16 = Instance.new("ImageLabel")
+local Frame_9 = Instance.new("ImageLabel")
+local AmbientShadow_17 = Instance.new("ImageLabel")
+local PenumbraShadow_17 = Instance.new("ImageLabel")
+local UmbraShadow_17 = Instance.new("ImageLabel")
+local Close = Instance.new("TextButton")
+local somethings = Instance.new("ImageLabel")
+local AmbientShadow_18 = Instance.new("ImageLabel")
+local PenumbraShadow_18 = Instance.new("ImageLabel")
+local UmbraShadow_18 = Instance.new("ImageLabel")
+local UICorner_10 = Instance.new("UICorner")
+local back = Instance.new("TextButton")
+local Spinny2 = Instance.new("Frame")
+local I5 = Instance.new("ImageLabel")
+local I4 = Instance.new("ImageLabel")
+local I3 = Instance.new("ImageLabel")
+local I2 = Instance.new("ImageLabel")
+local I1 = Instance.new("ImageLabel")
+local Spinny = Instance.new("Frame")
+local I5_2 = Instance.new("ImageLabel")
+local I4_2 = Instance.new("ImageLabel")
+local I3_2 = Instance.new("ImageLabel")
+local I2_2 = Instance.new("ImageLabel")
+local I1_2 = Instance.new("ImageLabel")
+local Spinny3 = Instance.new("Frame")
+local I5_3 = Instance.new("ImageLabel")
+local I4_3 = Instance.new("ImageLabel")
+local I3_3 = Instance.new("ImageLabel")
+local I2_3 = Instance.new("ImageLabel")
+local I1_3 = Instance.new("ImageLabel")
+local Frame_10 = Instance.new("ScrollingFrame")
+local Buttons = Instance.new("Frame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local Revenge = Instance.new("TextButton")
+local Viet = Instance.new("TextButton")
+local Galaxy_Collapse = Instance.new("TextButton")
+local Warak_Reanimate = Instance.new("TextButton")
+local Corpse = Instance.new("TextButton")
+local The_Big_Black = Instance.new("TextButton")
+local Ghost = Instance.new("TextButton")
+local Grim = Instance.new("TextButton")
+local A = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local tweenedButton = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+
+--Properties:
+
+Music.Name = "Music"
+Music.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Music.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Music_2.Name = "Music"
+Music_2.Parent = Music
+Music_2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Music_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Music_2.BorderSizePixel = 0
+Music_2.Position = UDim2.new(1, -619, 1, -354)
+Music_2.Size = UDim2.new(0, 619, 0, 354)
+Music_2.Visible = false
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(68, 28, 100)), ColorSequenceKeypoint.new(0.47, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4))}
+UIGradient.Parent = Music_2
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = Music_2
+
+Title.Name = "Title"
+Title.Parent = Music_2
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.289176106, 0, 0, 0)
+Title.Size = UDim2.new(0, 260, 0, 50)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Music! (yay)"
+Title.TextColor3 = Color3.fromRGB(0, 0, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Stuff.Name = "Stuff"
+Stuff.Parent = Music_2
+
+Frame1.Name = "Frame1"
+Frame1.Parent = Music_2
+Frame1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame1.BackgroundTransparency = 1.000
+Frame1.Position = UDim2.new(0.0218658894, 0, 0.855982482, 0)
+Frame1.Size = UDim2.new(0, 525, 0, 45)
+Frame1.ZIndex = 4
+
+Loop.Name = "Loop"
+Loop.Parent = Frame1
+Loop.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Loop.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Loop.BorderSizePixel = 0
+Loop.Position = UDim2.new(0.61259526, 0, 0.895196557, 0)
+Loop.Size = UDim2.new(0, 62, 0, 23)
+Loop.ZIndex = 5
+Loop.Font = Enum.Font.Gotham
+Loop.Text = "LOOP: OFF"
+Loop.TextColor3 = Color3.fromRGB(0, 17, 255)
+Loop.TextSize = 13.000
+Loop.TextWrapped = true
+
+AmbientShadow.Name = "AmbientShadow"
+AmbientShadow.Parent = Loop
+AmbientShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow.BackgroundTransparency = 1.000
+AmbientShadow.BorderSizePixel = 0
+AmbientShadow.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow.ZIndex = 3
+AmbientShadow.Image = "rbxassetid://1316045217"
+AmbientShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow.ImageTransparency = 0.800
+AmbientShadow.ScaleType = Enum.ScaleType.Slice
+AmbientShadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow.Name = "PenumbraShadow"
+PenumbraShadow.Parent = Loop
+PenumbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow.BackgroundTransparency = 1.000
+PenumbraShadow.BorderSizePixel = 0
+PenumbraShadow.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow.ZIndex = 3
+PenumbraShadow.Image = "rbxassetid://1316045217"
+PenumbraShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow.ImageTransparency = 0.880
+PenumbraShadow.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow.Name = "UmbraShadow"
+UmbraShadow.Parent = Loop
+UmbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow.BackgroundTransparency = 1.000
+UmbraShadow.BorderSizePixel = 0
+UmbraShadow.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow.ZIndex = 3
+UmbraShadow.Image = "rbxassetid://1316045217"
+UmbraShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow.ImageTransparency = 0.860
+UmbraShadow.ScaleType = Enum.ScaleType.Slice
+UmbraShadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UICorner_2.CornerRadius = UDim.new(0, 3)
+UICorner_2.Parent = Loop
+
+Pause.Name = "Pause"
+Pause.Parent = Frame1
+Pause.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Pause.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Pause.BorderSizePixel = 0
+Pause.Position = UDim2.new(0.464979917, 0, 0.895196557, 0)
+Pause.Size = UDim2.new(0, 62, 0, 23)
+Pause.ZIndex = 5
+Pause.Font = Enum.Font.Gotham
+Pause.Text = "Pause"
+Pause.TextColor3 = Color3.fromRGB(0, 17, 255)
+Pause.TextSize = 14.000
+Pause.TextWrapped = true
+
+AmbientShadow_2.Name = "AmbientShadow"
+AmbientShadow_2.Parent = Pause
+AmbientShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_2.BackgroundTransparency = 1.000
+AmbientShadow_2.BorderSizePixel = 0
+AmbientShadow_2.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow_2.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow_2.ZIndex = 3
+AmbientShadow_2.Image = "rbxassetid://1316045217"
+AmbientShadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_2.ImageTransparency = 0.800
+AmbientShadow_2.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_2.Name = "PenumbraShadow"
+PenumbraShadow_2.Parent = Pause
+PenumbraShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_2.BackgroundTransparency = 1.000
+PenumbraShadow_2.BorderSizePixel = 0
+PenumbraShadow_2.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_2.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_2.ZIndex = 3
+PenumbraShadow_2.Image = "rbxassetid://1316045217"
+PenumbraShadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_2.ImageTransparency = 0.880
+PenumbraShadow_2.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_2.Name = "UmbraShadow"
+UmbraShadow_2.Parent = Pause
+UmbraShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_2.BackgroundTransparency = 1.000
+UmbraShadow_2.BorderSizePixel = 0
+UmbraShadow_2.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow_2.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow_2.ZIndex = 3
+UmbraShadow_2.Image = "rbxassetid://1316045217"
+UmbraShadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_2.ImageTransparency = 0.860
+UmbraShadow_2.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UICorner_3.CornerRadius = UDim.new(0, 3)
+UICorner_3.Parent = Pause
+
+Play.Name = "Play"
+Play.Parent = Frame1
+Play.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Play.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Play.BorderSizePixel = 0
+Play.Position = UDim2.new(0.171353087, 0, 0.895196557, 0)
+Play.Size = UDim2.new(0, 62, 0, 23)
+Play.ZIndex = 5
+Play.Font = Enum.Font.Gotham
+Play.Text = "Play"
+Play.TextColor3 = Color3.fromRGB(0, 17, 255)
+Play.TextSize = 14.000
+Play.TextWrapped = true
+
+AmbientShadow_3.Name = "AmbientShadow"
+AmbientShadow_3.Parent = Play
+AmbientShadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_3.BackgroundTransparency = 1.000
+AmbientShadow_3.BorderSizePixel = 0
+AmbientShadow_3.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow_3.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow_3.ZIndex = 3
+AmbientShadow_3.Image = "rbxassetid://1316045217"
+AmbientShadow_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_3.ImageTransparency = 0.800
+AmbientShadow_3.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_3.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_3.Name = "PenumbraShadow"
+PenumbraShadow_3.Parent = Play
+PenumbraShadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_3.BackgroundTransparency = 1.000
+PenumbraShadow_3.BorderSizePixel = 0
+PenumbraShadow_3.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_3.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_3.ZIndex = 3
+PenumbraShadow_3.Image = "rbxassetid://1316045217"
+PenumbraShadow_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_3.ImageTransparency = 0.880
+PenumbraShadow_3.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_3.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_3.Name = "UmbraShadow"
+UmbraShadow_3.Parent = Play
+UmbraShadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_3.BackgroundTransparency = 1.000
+UmbraShadow_3.BorderSizePixel = 0
+UmbraShadow_3.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow_3.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow_3.ZIndex = 3
+UmbraShadow_3.Image = "rbxassetid://1316045217"
+UmbraShadow_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_3.ImageTransparency = 0.860
+UmbraShadow_3.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_3.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UICorner_4.CornerRadius = UDim.new(0, 3)
+UICorner_4.Parent = Play
+
+Playlist.Name = "Playlist"
+Playlist.Parent = Frame1
+Playlist.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Playlist.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Playlist.BorderSizePixel = 0
+Playlist.Position = UDim2.new(0.318166673, 0, 0.895196557, 0)
+Playlist.Size = UDim2.new(0, 62, 0, 23)
+Playlist.ZIndex = 5
+Playlist.Font = Enum.Font.Gotham
+Playlist.Text = "Playlist"
+Playlist.TextColor3 = Color3.fromRGB(0, 17, 255)
+Playlist.TextSize = 14.000
+Playlist.TextWrapped = true
+
+AmbientShadow_4.Name = "AmbientShadow"
+AmbientShadow_4.Parent = Playlist
+AmbientShadow_4.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_4.BackgroundTransparency = 1.000
+AmbientShadow_4.BorderSizePixel = 0
+AmbientShadow_4.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow_4.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow_4.ZIndex = 3
+AmbientShadow_4.Image = "rbxassetid://1316045217"
+AmbientShadow_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_4.ImageTransparency = 0.800
+AmbientShadow_4.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_4.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_4.Name = "PenumbraShadow"
+PenumbraShadow_4.Parent = Playlist
+PenumbraShadow_4.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_4.BackgroundTransparency = 1.000
+PenumbraShadow_4.BorderSizePixel = 0
+PenumbraShadow_4.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_4.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_4.ZIndex = 3
+PenumbraShadow_4.Image = "rbxassetid://1316045217"
+PenumbraShadow_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_4.ImageTransparency = 0.880
+PenumbraShadow_4.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_4.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_4.Name = "UmbraShadow"
+UmbraShadow_4.Parent = Playlist
+UmbraShadow_4.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_4.BackgroundTransparency = 1.000
+UmbraShadow_4.BorderSizePixel = 0
+UmbraShadow_4.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow_4.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow_4.ZIndex = 3
+UmbraShadow_4.Image = "rbxassetid://1316045217"
+UmbraShadow_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_4.ImageTransparency = 0.860
+UmbraShadow_4.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_4.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UICorner_5.CornerRadius = UDim.new(0, 3)
+UICorner_5.Parent = Playlist
+
+Stop.Name = "Stop"
+Stop.Parent = Frame1
+Stop.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Stop.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Stop.BorderSizePixel = 0
+Stop.Position = UDim2.new(0.318166673, 0, 0.895196557, 0)
+Stop.Size = UDim2.new(0, 62, 0, 23)
+Stop.ZIndex = 5
+Stop.Font = Enum.Font.Gotham
+Stop.Text = "Stop"
+Stop.TextColor3 = Color3.fromRGB(0, 17, 255)
+Stop.TextSize = 14.000
+Stop.TextWrapped = true
+
+AmbientShadow_5.Name = "AmbientShadow"
+AmbientShadow_5.Parent = Stop
+AmbientShadow_5.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_5.BackgroundTransparency = 1.000
+AmbientShadow_5.BorderSizePixel = 0
+AmbientShadow_5.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow_5.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow_5.ZIndex = 3
+AmbientShadow_5.Image = "rbxassetid://1316045217"
+AmbientShadow_5.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_5.ImageTransparency = 0.800
+AmbientShadow_5.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_5.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_5.Name = "PenumbraShadow"
+PenumbraShadow_5.Parent = Stop
+PenumbraShadow_5.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_5.BackgroundTransparency = 1.000
+PenumbraShadow_5.BorderSizePixel = 0
+PenumbraShadow_5.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_5.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_5.ZIndex = 3
+PenumbraShadow_5.Image = "rbxassetid://1316045217"
+PenumbraShadow_5.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_5.ImageTransparency = 0.880
+PenumbraShadow_5.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_5.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_5.Name = "UmbraShadow"
+UmbraShadow_5.Parent = Stop
+UmbraShadow_5.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_5.BackgroundTransparency = 1.000
+UmbraShadow_5.BorderSizePixel = 0
+UmbraShadow_5.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow_5.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow_5.ZIndex = 3
+UmbraShadow_5.Image = "rbxassetid://1316045217"
+UmbraShadow_5.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_5.ImageTransparency = 0.860
+UmbraShadow_5.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_5.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UICorner_6.CornerRadius = UDim.new(0, 3)
+UICorner_6.Parent = Stop
+
+Volume.Name = "Volume"
+Volume.Parent = Frame1
+Volume.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Volume.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Volume.BorderSizePixel = 0
+Volume.Position = UDim2.new(0.765382648, 0, 0.895196557, 0)
+Volume.Size = UDim2.new(0, 62, 0, 23)
+Volume.ZIndex = 5
+Volume.Font = Enum.Font.Gotham
+Volume.PlaceholderColor3 = Color3.fromRGB(0, 17, 255)
+Volume.PlaceholderText = "Vol"
+Volume.Text = ""
+Volume.TextColor3 = Color3.fromRGB(255, 255, 255)
+Volume.TextSize = 16.000
+Volume.TextWrapped = true
+
+AmbientShadow_6.Name = "AmbientShadow"
+AmbientShadow_6.Parent = Volume
+AmbientShadow_6.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_6.BackgroundTransparency = 1.000
+AmbientShadow_6.BorderSizePixel = 0
+AmbientShadow_6.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow_6.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow_6.ZIndex = 3
+AmbientShadow_6.Image = "rbxassetid://1316045217"
+AmbientShadow_6.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_6.ImageTransparency = 0.800
+AmbientShadow_6.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_6.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_6.Name = "PenumbraShadow"
+PenumbraShadow_6.Parent = Volume
+PenumbraShadow_6.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_6.BackgroundTransparency = 1.000
+PenumbraShadow_6.BorderSizePixel = 0
+PenumbraShadow_6.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_6.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_6.ZIndex = 3
+PenumbraShadow_6.Image = "rbxassetid://1316045217"
+PenumbraShadow_6.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_6.ImageTransparency = 0.880
+PenumbraShadow_6.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_6.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_6.Name = "UmbraShadow"
+UmbraShadow_6.Parent = Volume
+UmbraShadow_6.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_6.BackgroundTransparency = 1.000
+UmbraShadow_6.BorderSizePixel = 0
+UmbraShadow_6.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow_6.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow_6.ZIndex = 3
+UmbraShadow_6.Image = "rbxassetid://1316045217"
+UmbraShadow_6.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_6.ImageTransparency = 0.860
+UmbraShadow_6.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_6.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UICorner_7.CornerRadius = UDim.new(0, 3)
+UICorner_7.Parent = Volume
+
+id.Name = "id"
+id.Parent = Frame1
+id.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+id.BorderColor3 = Color3.fromRGB(255, 255, 255)
+id.BorderSizePixel = 0
+id.Position = UDim2.new(0.0199760012, 0, 0.895479739, 0)
+id.Size = UDim2.new(0, 62, 0, 23)
+id.ZIndex = 5
+id.Font = Enum.Font.Gotham
+id.PlaceholderColor3 = Color3.fromRGB(0, 17, 255)
+id.PlaceholderText = "Music ID"
+id.Text = ""
+id.TextColor3 = Color3.fromRGB(255, 255, 255)
+id.TextScaled = true
+id.TextSize = 16.000
+id.TextWrapped = true
+
+AmbientShadow_7.Name = "AmbientShadow"
+AmbientShadow_7.Parent = id
+AmbientShadow_7.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_7.BackgroundTransparency = 1.000
+AmbientShadow_7.BorderSizePixel = 0
+AmbientShadow_7.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow_7.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow_7.ZIndex = 3
+AmbientShadow_7.Image = "rbxassetid://1316045217"
+AmbientShadow_7.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_7.ImageTransparency = 0.800
+AmbientShadow_7.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_7.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_7.Name = "PenumbraShadow"
+PenumbraShadow_7.Parent = id
+PenumbraShadow_7.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_7.BackgroundTransparency = 1.000
+PenumbraShadow_7.BorderSizePixel = 0
+PenumbraShadow_7.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_7.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_7.ZIndex = 3
+PenumbraShadow_7.Image = "rbxassetid://1316045217"
+PenumbraShadow_7.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_7.ImageTransparency = 0.880
+PenumbraShadow_7.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_7.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_7.Name = "UmbraShadow"
+UmbraShadow_7.Parent = id
+UmbraShadow_7.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_7.BackgroundTransparency = 1.000
+UmbraShadow_7.BorderSizePixel = 0
+UmbraShadow_7.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow_7.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow_7.ZIndex = 3
+UmbraShadow_7.Image = "rbxassetid://1316045217"
+UmbraShadow_7.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_7.ImageTransparency = 0.860
+UmbraShadow_7.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_7.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UICorner_8.CornerRadius = UDim.new(0, 3)
+UICorner_8.Parent = id
+
+UIListLayout.Parent = Frame1
+UIListLayout.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout.Padding = UDim.new(0, 15)
+
+Music_remover.Name = "Music_remover"
+Music_remover.Parent = Frame1
+Music_remover.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Music_remover.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Music_remover.BorderSizePixel = 0
+Music_remover.Position = UDim2.new(0.171353087, 0, 0.895196557, 0)
+Music_remover.Size = UDim2.new(0, 62, 0, 23)
+Music_remover.ZIndex = 5
+Music_remover.Font = Enum.Font.Gotham
+Music_remover.Text = "Remove music"
+Music_remover.TextColor3 = Color3.fromRGB(0, 17, 255)
+Music_remover.TextSize = 14.000
+Music_remover.TextWrapped = true
+
+AmbientShadow_8.Name = "AmbientShadow"
+AmbientShadow_8.Parent = Music_remover
+AmbientShadow_8.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_8.BackgroundTransparency = 1.000
+AmbientShadow_8.BorderSizePixel = 0
+AmbientShadow_8.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow_8.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow_8.ZIndex = 3
+AmbientShadow_8.Image = "rbxassetid://1316045217"
+AmbientShadow_8.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_8.ImageTransparency = 0.800
+AmbientShadow_8.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_8.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_8.Name = "PenumbraShadow"
+PenumbraShadow_8.Parent = Music_remover
+PenumbraShadow_8.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_8.BackgroundTransparency = 1.000
+PenumbraShadow_8.BorderSizePixel = 0
+PenumbraShadow_8.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_8.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_8.ZIndex = 3
+PenumbraShadow_8.Image = "rbxassetid://1316045217"
+PenumbraShadow_8.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_8.ImageTransparency = 0.880
+PenumbraShadow_8.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_8.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_8.Name = "UmbraShadow"
+UmbraShadow_8.Parent = Music_remover
+UmbraShadow_8.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_8.BackgroundTransparency = 1.000
+UmbraShadow_8.BorderSizePixel = 0
+UmbraShadow_8.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow_8.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow_8.ZIndex = 3
+UmbraShadow_8.Image = "rbxassetid://1316045217"
+UmbraShadow_8.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_8.ImageTransparency = 0.860
+UmbraShadow_8.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_8.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UICorner_9.CornerRadius = UDim.new(0, 3)
+UICorner_9.Parent = Music_remover
+
+TextLabel.Parent = Music_remover
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(2.96797228, -181, 2.0869565, -25)
+TextLabel.Size = UDim2.new(0, 58, 0, 16)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Music"
+TextLabel.TextColor3 = Color3.fromRGB(102, 0, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+tings.Name = "tings"
+tings.Parent = Music_2
+tings.AnchorPoint = Vector2.new(0.5, 0.5)
+tings.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+tings.BackgroundTransparency = 1.000
+tings.BorderSizePixel = 0
+tings.Position = UDim2.new(0.499569088, 0, 0.421329618, 0)
+tings.Size = UDim2.new(0.966474831, 0, 0.803781807, 0)
+tings.ZIndex = 3
+
+Frame.Name = "Frame"
+Frame.Parent = tings
+Frame.AnchorPoint = Vector2.new(0.5, 1)
+Frame.BackgroundColor3 = Color3.fromRGB(135, 115, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.165368602, 0, 0.946443439, 0)
+Frame.Size = UDim2.new(0.100000001, 0, 0, 0)
+Frame.ZIndex = 4
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageTransparency = 0.400
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.040
+
+AmbientShadow_9.Name = "AmbientShadow"
+AmbientShadow_9.Parent = Frame
+AmbientShadow_9.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_9.BackgroundTransparency = 1.000
+AmbientShadow_9.BorderSizePixel = 0
+AmbientShadow_9.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow_9.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow_9.ZIndex = 3
+AmbientShadow_9.Image = "rbxassetid://1316045217"
+AmbientShadow_9.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_9.ImageTransparency = 0.800
+AmbientShadow_9.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_9.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_9.Name = "PenumbraShadow"
+PenumbraShadow_9.Parent = Frame
+PenumbraShadow_9.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_9.BackgroundTransparency = 1.000
+PenumbraShadow_9.BorderSizePixel = 0
+PenumbraShadow_9.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_9.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_9.ZIndex = 3
+PenumbraShadow_9.Image = "rbxassetid://1316045217"
+PenumbraShadow_9.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_9.ImageTransparency = 0.880
+PenumbraShadow_9.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_9.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_9.Name = "UmbraShadow"
+UmbraShadow_9.Parent = Frame
+UmbraShadow_9.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_9.BackgroundTransparency = 1.000
+UmbraShadow_9.BorderSizePixel = 0
+UmbraShadow_9.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow_9.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow_9.ZIndex = 3
+UmbraShadow_9.Image = "rbxassetid://1316045217"
+UmbraShadow_9.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_9.ImageTransparency = 0.860
+UmbraShadow_9.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_9.SliceCenter = Rect.new(10, 10, 118, 118)
+
+Frame_2.Name = "Frame"
+Frame_2.Parent = tings
+Frame_2.AnchorPoint = Vector2.new(0.5, 1)
+Frame_2.BackgroundColor3 = Color3.fromRGB(196, 196, 196)
+Frame_2.BackgroundTransparency = 1.000
+Frame_2.Position = UDim2.new(0.388780087, 0, 0.946443737, 0)
+Frame_2.Size = UDim2.new(0.100000001, 0, 0, 0)
+Frame_2.ZIndex = 4
+Frame_2.Image = "rbxassetid://3570695787"
+Frame_2.ImageColor3 = Color3.fromRGB(85, 0, 127)
+Frame_2.ImageTransparency = 0.400
+Frame_2.ScaleType = Enum.ScaleType.Slice
+Frame_2.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame_2.SliceScale = 0.040
+
+AmbientShadow_10.Name = "AmbientShadow"
+AmbientShadow_10.Parent = Frame_2
+AmbientShadow_10.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_10.BackgroundTransparency = 1.000
+AmbientShadow_10.BorderSizePixel = 0
+AmbientShadow_10.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow_10.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow_10.ZIndex = 3
+AmbientShadow_10.Image = "rbxassetid://1316045217"
+AmbientShadow_10.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_10.ImageTransparency = 0.800
+AmbientShadow_10.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_10.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_10.Name = "PenumbraShadow"
+PenumbraShadow_10.Parent = Frame_2
+PenumbraShadow_10.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_10.BackgroundTransparency = 1.000
+PenumbraShadow_10.BorderSizePixel = 0
+PenumbraShadow_10.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_10.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_10.ZIndex = 3
+PenumbraShadow_10.Image = "rbxassetid://1316045217"
+PenumbraShadow_10.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_10.ImageTransparency = 0.880
+PenumbraShadow_10.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_10.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_10.Name = "UmbraShadow"
+UmbraShadow_10.Parent = Frame_2
+UmbraShadow_10.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_10.BackgroundTransparency = 1.000
+UmbraShadow_10.BorderSizePixel = 0
+UmbraShadow_10.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow_10.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow_10.ZIndex = 3
+UmbraShadow_10.Image = "rbxassetid://1316045217"
+UmbraShadow_10.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_10.ImageTransparency = 0.860
+UmbraShadow_10.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_10.SliceCenter = Rect.new(10, 10, 118, 118)
+
+Frame_3.Name = "Frame"
+Frame_3.Parent = tings
+Frame_3.AnchorPoint = Vector2.new(0.5, 1)
+Frame_3.BackgroundColor3 = Color3.fromRGB(168, 168, 168)
+Frame_3.BackgroundTransparency = 1.000
+Frame_3.Position = UDim2.new(0.500485837, 0, 0.946443737, 0)
+Frame_3.Size = UDim2.new(0.100000001, 0, 0, 0)
+Frame_3.ZIndex = 4
+Frame_3.Image = "rbxassetid://3570695787"
+Frame_3.ImageColor3 = Color3.fromRGB(85, 0, 127)
+Frame_3.ImageTransparency = 0.400
+Frame_3.ScaleType = Enum.ScaleType.Slice
+Frame_3.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame_3.SliceScale = 0.040
+
+AmbientShadow_11.Name = "AmbientShadow"
+AmbientShadow_11.Parent = Frame_3
+AmbientShadow_11.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_11.BackgroundTransparency = 1.000
+AmbientShadow_11.BorderSizePixel = 0
+AmbientShadow_11.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow_11.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow_11.ZIndex = 3
+AmbientShadow_11.Image = "rbxassetid://1316045217"
+AmbientShadow_11.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_11.ImageTransparency = 0.800
+AmbientShadow_11.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_11.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_11.Name = "PenumbraShadow"
+PenumbraShadow_11.Parent = Frame_3
+PenumbraShadow_11.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_11.BackgroundTransparency = 1.000
+PenumbraShadow_11.BorderSizePixel = 0
+PenumbraShadow_11.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_11.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_11.ZIndex = 3
+PenumbraShadow_11.Image = "rbxassetid://1316045217"
+PenumbraShadow_11.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_11.ImageTransparency = 0.880
+PenumbraShadow_11.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_11.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_11.Name = "UmbraShadow"
+UmbraShadow_11.Parent = Frame_3
+UmbraShadow_11.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_11.BackgroundTransparency = 1.000
+UmbraShadow_11.BorderSizePixel = 0
+UmbraShadow_11.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow_11.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow_11.ZIndex = 3
+UmbraShadow_11.Image = "rbxassetid://1316045217"
+UmbraShadow_11.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_11.ImageTransparency = 0.860
+UmbraShadow_11.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_11.SliceCenter = Rect.new(10, 10, 118, 118)
+
+Frame_4.Name = "Frame"
+Frame_4.Parent = tings
+Frame_4.AnchorPoint = Vector2.new(0.5, 1)
+Frame_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.BackgroundTransparency = 1.000
+Frame_4.Position = UDim2.new(0.947308719, 0, 0.946443737, 0)
+Frame_4.Size = UDim2.new(0.100000001, 0, 0, 0)
+Frame_4.ZIndex = 4
+Frame_4.Image = "rbxassetid://3570695787"
+Frame_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.ImageTransparency = 0.400
+Frame_4.ScaleType = Enum.ScaleType.Slice
+Frame_4.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame_4.SliceScale = 0.040
+
+AmbientShadow_12.Name = "AmbientShadow"
+AmbientShadow_12.Parent = Frame_4
+AmbientShadow_12.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_12.BackgroundTransparency = 1.000
+AmbientShadow_12.BorderSizePixel = 0
+AmbientShadow_12.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow_12.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow_12.ZIndex = 3
+AmbientShadow_12.Image = "rbxassetid://1316045217"
+AmbientShadow_12.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_12.ImageTransparency = 0.800
+AmbientShadow_12.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_12.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_12.Name = "PenumbraShadow"
+PenumbraShadow_12.Parent = Frame_4
+PenumbraShadow_12.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_12.BackgroundTransparency = 1.000
+PenumbraShadow_12.BorderSizePixel = 0
+PenumbraShadow_12.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_12.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_12.ZIndex = 3
+PenumbraShadow_12.Image = "rbxassetid://1316045217"
+PenumbraShadow_12.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_12.ImageTransparency = 0.880
+PenumbraShadow_12.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_12.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_12.Name = "UmbraShadow"
+UmbraShadow_12.Parent = Frame_4
+UmbraShadow_12.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_12.BackgroundTransparency = 1.000
+UmbraShadow_12.BorderSizePixel = 0
+UmbraShadow_12.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow_12.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow_12.ZIndex = 3
+UmbraShadow_12.Image = "rbxassetid://1316045217"
+UmbraShadow_12.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_12.ImageTransparency = 0.860
+UmbraShadow_12.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_12.SliceCenter = Rect.new(10, 10, 118, 118)
+
+Frame_5.Name = "Frame"
+Frame_5.Parent = tings
+Frame_5.AnchorPoint = Vector2.new(0.5, 1)
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_5.BackgroundTransparency = 1.000
+Frame_5.Position = UDim2.new(0.0531861559, 0, 0.946443737, 0)
+Frame_5.Size = UDim2.new(0.100000001, 0, 0, 0)
+Frame_5.ZIndex = 4
+Frame_5.Image = "rbxassetid://3570695787"
+Frame_5.ImageTransparency = 0.400
+Frame_5.ScaleType = Enum.ScaleType.Slice
+Frame_5.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame_5.SliceScale = 0.040
+
+AmbientShadow_13.Name = "AmbientShadow"
+AmbientShadow_13.Parent = Frame_5
+AmbientShadow_13.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_13.BackgroundTransparency = 1.000
+AmbientShadow_13.BorderSizePixel = 0
+AmbientShadow_13.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow_13.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow_13.ZIndex = 3
+AmbientShadow_13.Image = "rbxassetid://1316045217"
+AmbientShadow_13.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_13.ImageTransparency = 0.800
+AmbientShadow_13.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_13.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_13.Name = "PenumbraShadow"
+PenumbraShadow_13.Parent = Frame_5
+PenumbraShadow_13.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_13.BackgroundTransparency = 1.000
+PenumbraShadow_13.BorderSizePixel = 0
+PenumbraShadow_13.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_13.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_13.ZIndex = 3
+PenumbraShadow_13.Image = "rbxassetid://1316045217"
+PenumbraShadow_13.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_13.ImageTransparency = 0.880
+PenumbraShadow_13.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_13.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_13.Name = "UmbraShadow"
+UmbraShadow_13.Parent = Frame_5
+UmbraShadow_13.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_13.BackgroundTransparency = 1.000
+UmbraShadow_13.BorderSizePixel = 0
+UmbraShadow_13.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow_13.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow_13.ZIndex = 3
+UmbraShadow_13.Image = "rbxassetid://1316045217"
+UmbraShadow_13.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_13.ImageTransparency = 0.860
+UmbraShadow_13.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_13.SliceCenter = Rect.new(10, 10, 118, 118)
+
+Frame_6.Name = "Frame"
+Frame_6.Parent = tings
+Frame_6.AnchorPoint = Vector2.new(0.5, 1)
+Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_6.BackgroundTransparency = 1.000
+Frame_6.Position = UDim2.new(0.277074337, 0, 0.946443737, 0)
+Frame_6.Size = UDim2.new(0.100000001, 0, 0, 0)
+Frame_6.ZIndex = 4
+Frame_6.Image = "rbxassetid://3570695787"
+Frame_6.ImageTransparency = 0.400
+Frame_6.ScaleType = Enum.ScaleType.Slice
+Frame_6.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame_6.SliceScale = 0.040
+
+AmbientShadow_14.Name = "AmbientShadow"
+AmbientShadow_14.Parent = Frame_6
+AmbientShadow_14.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_14.BackgroundTransparency = 1.000
+AmbientShadow_14.BorderSizePixel = 0
+AmbientShadow_14.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow_14.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow_14.ZIndex = 3
+AmbientShadow_14.Image = "rbxassetid://1316045217"
+AmbientShadow_14.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_14.ImageTransparency = 0.800
+AmbientShadow_14.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_14.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_14.Name = "PenumbraShadow"
+PenumbraShadow_14.Parent = Frame_6
+PenumbraShadow_14.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_14.BackgroundTransparency = 1.000
+PenumbraShadow_14.BorderSizePixel = 0
+PenumbraShadow_14.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_14.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_14.ZIndex = 3
+PenumbraShadow_14.Image = "rbxassetid://1316045217"
+PenumbraShadow_14.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_14.ImageTransparency = 0.880
+PenumbraShadow_14.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_14.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_14.Name = "UmbraShadow"
+UmbraShadow_14.Parent = Frame_6
+UmbraShadow_14.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_14.BackgroundTransparency = 1.000
+UmbraShadow_14.BorderSizePixel = 0
+UmbraShadow_14.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow_14.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow_14.ZIndex = 3
+UmbraShadow_14.Image = "rbxassetid://1316045217"
+UmbraShadow_14.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_14.ImageTransparency = 0.860
+UmbraShadow_14.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_14.SliceCenter = Rect.new(10, 10, 118, 118)
+
+Frame_7.Name = "Frame"
+Frame_7.Parent = tings
+Frame_7.AnchorPoint = Vector2.new(0.5, 1)
+Frame_7.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+Frame_7.BackgroundTransparency = 1.000
+Frame_7.Position = UDim2.new(0.835602999, 0, 0.946443737, 0)
+Frame_7.Size = UDim2.new(0.100000001, 0, 0, 0)
+Frame_7.ZIndex = 4
+Frame_7.Image = "rbxassetid://3570695787"
+Frame_7.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Frame_7.ImageTransparency = 0.400
+Frame_7.ScaleType = Enum.ScaleType.Slice
+Frame_7.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame_7.SliceScale = 0.040
+
+AmbientShadow_15.Name = "AmbientShadow"
+AmbientShadow_15.Parent = Frame_7
+AmbientShadow_15.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_15.BackgroundTransparency = 1.000
+AmbientShadow_15.BorderSizePixel = 0
+AmbientShadow_15.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow_15.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow_15.ZIndex = 3
+AmbientShadow_15.Image = "rbxassetid://1316045217"
+AmbientShadow_15.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_15.ImageTransparency = 0.800
+AmbientShadow_15.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_15.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_15.Name = "PenumbraShadow"
+PenumbraShadow_15.Parent = Frame_7
+PenumbraShadow_15.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_15.BackgroundTransparency = 1.000
+PenumbraShadow_15.BorderSizePixel = 0
+PenumbraShadow_15.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_15.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_15.ZIndex = 3
+PenumbraShadow_15.Image = "rbxassetid://1316045217"
+PenumbraShadow_15.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_15.ImageTransparency = 0.880
+PenumbraShadow_15.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_15.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_15.Name = "UmbraShadow"
+UmbraShadow_15.Parent = Frame_7
+UmbraShadow_15.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_15.BackgroundTransparency = 1.000
+UmbraShadow_15.BorderSizePixel = 0
+UmbraShadow_15.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow_15.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow_15.ZIndex = 3
+UmbraShadow_15.Image = "rbxassetid://1316045217"
+UmbraShadow_15.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_15.ImageTransparency = 0.860
+UmbraShadow_15.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_15.SliceCenter = Rect.new(10, 10, 118, 118)
+
+Frame_8.Name = "Frame"
+Frame_8.Parent = tings
+Frame_8.AnchorPoint = Vector2.new(0.5, 1)
+Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_8.BackgroundTransparency = 1.000
+Frame_8.Position = UDim2.new(0.723897278, 0, 0.946443737, 0)
+Frame_8.Size = UDim2.new(0.100000001, 0, 0, 0)
+Frame_8.ZIndex = 4
+Frame_8.Image = "rbxassetid://3570695787"
+Frame_8.ImageColor3 = Color3.fromRGB(85, 0, 127)
+Frame_8.ImageTransparency = 0.400
+Frame_8.ScaleType = Enum.ScaleType.Slice
+Frame_8.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame_8.SliceScale = 0.040
+
+AmbientShadow_16.Name = "AmbientShadow"
+AmbientShadow_16.Parent = Frame_8
+AmbientShadow_16.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_16.BackgroundTransparency = 1.000
+AmbientShadow_16.BorderSizePixel = 0
+AmbientShadow_16.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow_16.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow_16.ZIndex = 3
+AmbientShadow_16.Image = "rbxassetid://1316045217"
+AmbientShadow_16.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_16.ImageTransparency = 0.800
+AmbientShadow_16.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_16.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_16.Name = "PenumbraShadow"
+PenumbraShadow_16.Parent = Frame_8
+PenumbraShadow_16.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_16.BackgroundTransparency = 1.000
+PenumbraShadow_16.BorderSizePixel = 0
+PenumbraShadow_16.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_16.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_16.ZIndex = 3
+PenumbraShadow_16.Image = "rbxassetid://1316045217"
+PenumbraShadow_16.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_16.ImageTransparency = 0.880
+PenumbraShadow_16.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_16.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_16.Name = "UmbraShadow"
+UmbraShadow_16.Parent = Frame_8
+UmbraShadow_16.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_16.BackgroundTransparency = 1.000
+UmbraShadow_16.BorderSizePixel = 0
+UmbraShadow_16.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow_16.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow_16.ZIndex = 3
+UmbraShadow_16.Image = "rbxassetid://1316045217"
+UmbraShadow_16.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_16.ImageTransparency = 0.860
+UmbraShadow_16.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_16.SliceCenter = Rect.new(10, 10, 118, 118)
+
+Frame_9.Name = "Frame"
+Frame_9.Parent = tings
+Frame_9.AnchorPoint = Vector2.new(0.5, 1)
+Frame_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_9.BackgroundTransparency = 1.000
+Frame_9.Position = UDim2.new(0.611768901, 0, 0.946443439, 0)
+Frame_9.Size = UDim2.new(0.100000001, 0, 0, 0)
+Frame_9.ZIndex = 4
+Frame_9.Image = "rbxassetid://3570695787"
+Frame_9.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Frame_9.ImageTransparency = 0.400
+Frame_9.ScaleType = Enum.ScaleType.Slice
+Frame_9.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame_9.SliceScale = 0.040
+
+AmbientShadow_17.Name = "AmbientShadow"
+AmbientShadow_17.Parent = Frame_9
+AmbientShadow_17.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_17.BackgroundTransparency = 1.000
+AmbientShadow_17.BorderSizePixel = 0
+AmbientShadow_17.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow_17.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow_17.ZIndex = 3
+AmbientShadow_17.Image = "rbxassetid://1316045217"
+AmbientShadow_17.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_17.ImageTransparency = 0.800
+AmbientShadow_17.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_17.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_17.Name = "PenumbraShadow"
+PenumbraShadow_17.Parent = Frame_9
+PenumbraShadow_17.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_17.BackgroundTransparency = 1.000
+PenumbraShadow_17.BorderSizePixel = 0
+PenumbraShadow_17.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_17.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_17.ZIndex = 3
+PenumbraShadow_17.Image = "rbxassetid://1316045217"
+PenumbraShadow_17.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_17.ImageTransparency = 0.880
+PenumbraShadow_17.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_17.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_17.Name = "UmbraShadow"
+UmbraShadow_17.Parent = Frame_9
+UmbraShadow_17.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_17.BackgroundTransparency = 1.000
+UmbraShadow_17.BorderSizePixel = 0
+UmbraShadow_17.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow_17.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow_17.ZIndex = 3
+UmbraShadow_17.Image = "rbxassetid://1316045217"
+UmbraShadow_17.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_17.ImageTransparency = 0.860
+UmbraShadow_17.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_17.SliceCenter = Rect.new(10, 10, 118, 118)
+
+Close.Name = "Close"
+Close.Parent = Music_2
+Close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Close.BackgroundTransparency = 0.999
+Close.Position = UDim2.new(0.327988356, 0, 0, 0)
+Close.Size = UDim2.new(0, 370, 0, 320)
+Close.Visible = false
+Close.ZIndex = 200
+Close.Font = Enum.Font.SourceSans
+Close.Text = ""
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+
+somethings.Name = "somethings"
+somethings.Parent = Music_2
+somethings.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+somethings.Position = UDim2.new(0.0199760012, 0, 0.82322067, 0)
+somethings.Size = UDim2.new(0, 525, 0, 10)
+somethings.ZIndex = 4
+somethings.Image = "rbxassetid://0"
+somethings.ImageTransparency = 1.000
+somethings.ScaleType = Enum.ScaleType.Slice
+somethings.SliceCenter = Rect.new(100, 100, 100, 100)
+somethings.SliceScale = 0.060
+
+AmbientShadow_18.Name = "AmbientShadow"
+AmbientShadow_18.Parent = somethings
+AmbientShadow_18.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_18.BackgroundTransparency = 1.000
+AmbientShadow_18.BorderSizePixel = 0
+AmbientShadow_18.Position = UDim2.new(0.5, 0, 0.484167844, 3)
+AmbientShadow_18.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow_18.ZIndex = 3
+AmbientShadow_18.Image = "rbxassetid://1316045217"
+AmbientShadow_18.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_18.ImageTransparency = 0.800
+AmbientShadow_18.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_18.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_18.Name = "PenumbraShadow"
+PenumbraShadow_18.Parent = somethings
+PenumbraShadow_18.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_18.BackgroundTransparency = 1.000
+PenumbraShadow_18.BorderSizePixel = 0
+PenumbraShadow_18.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_18.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_18.ZIndex = 3
+PenumbraShadow_18.Image = "rbxassetid://1316045217"
+PenumbraShadow_18.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_18.ImageTransparency = 0.880
+PenumbraShadow_18.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_18.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_18.Name = "UmbraShadow"
+UmbraShadow_18.Parent = somethings
+UmbraShadow_18.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_18.BackgroundTransparency = 1.000
+UmbraShadow_18.BorderSizePixel = 0
+UmbraShadow_18.Position = UDim2.new(0.5, 0, 0.48458904, 6)
+UmbraShadow_18.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow_18.ZIndex = 3
+UmbraShadow_18.Image = "rbxassetid://1316045217"
+UmbraShadow_18.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_18.ImageTransparency = 0.860
+UmbraShadow_18.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_18.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UICorner_10.CornerRadius = UDim.new(0, 10)
+UICorner_10.Parent = somethings
+
+back.Name = "back"
+back.Parent = Music_2
+back.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+back.BackgroundTransparency = 1.000
+back.Position = UDim2.new(0.00280840602, 0, 0.0169491526, 0)
+back.Size = UDim2.new(0, 160, 0, 26)
+back.Font = Enum.Font.SourceSans
+back.Text = "Return"
+back.TextColor3 = Color3.fromRGB(162, 139, 100)
+back.TextScaled = true
+back.TextSize = 14.000
+back.TextWrapped = true
+
+Spinny2.Name = "Spinny2"
+Spinny2.Parent = Music_2
+Spinny2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Spinny2.BackgroundTransparency = 1.000
+Spinny2.Position = UDim2.new(0.577623904, 0, 0.0531084016, 0)
+Spinny2.Size = UDim2.new(0.365889311, 0, 0.625117242, 0)
+Spinny2.ZIndex = 3
+
+I5.Name = "I5"
+I5.Parent = Spinny2
+I5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+I5.BackgroundTransparency = 1.000
+I5.Position = UDim2.new(0.264917642, 0, 0.14008671, 0)
+I5.Size = UDim2.new(0, 200, 0, 200)
+I5.ZIndex = 3
+I5.Image = "rbxassetid://2344870656"
+I5.ImageColor3 = Color3.fromRGB(0, 0, 0)
+I5.ImageTransparency = 0.300
+
+I4.Name = "I4"
+I4.Parent = Spinny2
+I4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+I4.BackgroundTransparency = 1.000
+I4.Position = UDim2.new(0.264917642, 0, 0.14008671, 0)
+I4.Size = UDim2.new(0, 200, 0, 200)
+I4.ZIndex = 3
+I4.Image = "rbxassetid://2092248396"
+I4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+I4.ImageTransparency = 0.300
+
+I3.Name = "I3"
+I3.Parent = Spinny2
+I3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+I3.BackgroundTransparency = 1.000
+I3.Position = UDim2.new(0.264917642, 0, 0.14008671, 0)
+I3.Size = UDim2.new(0, 200, 0, 200)
+I3.ZIndex = 3
+I3.Image = "rbxassetid://2076519836"
+I3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+I3.ImageTransparency = 0.300
+
+I2.Name = "I2"
+I2.Parent = Spinny2
+I2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+I2.BackgroundTransparency = 1.000
+I2.Position = UDim2.new(0.264917642, 0, 0.14008671, 0)
+I2.Size = UDim2.new(0, 200, 0, 200)
+I2.ZIndex = 3
+I2.Image = "rbxassetid://2076458450"
+I2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+I2.ImageTransparency = 0.300
+
+I1.Name = "I1"
+I1.Parent = Spinny2
+I1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+I1.BackgroundTransparency = 1.000
+I1.Position = UDim2.new(0.264917642, 0, 0.14008671, 0)
+I1.Size = UDim2.new(0, 200, 0, 200)
+I1.ZIndex = 3
+I1.Image = "rbxassetid://2344851144"
+I1.ImageColor3 = Color3.fromRGB(0, 0, 0)
+I1.ImageTransparency = 0.300
+
+Spinny.Name = "Spinny"
+Spinny.Parent = Music_2
+Spinny.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Spinny.BackgroundTransparency = 1.000
+Spinny.Position = UDim2.new(0.0364431478, 0, 0.0499843806, 0)
+Spinny.Size = UDim2.new(0.365889192, 0, 0.625117183, 0)
+Spinny.ZIndex = 3
+
+I5_2.Name = "I5"
+I5_2.Parent = Spinny
+I5_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+I5_2.BackgroundTransparency = 1.000
+I5_2.Position = UDim2.new(-0.0750600174, 0, 0.140086725, 0)
+I5_2.Size = UDim2.new(0, 200, 0, 200)
+I5_2.ZIndex = 3
+I5_2.Image = "rbxassetid://2344870656"
+I5_2.ImageTransparency = 0.300
+
+I4_2.Name = "I4"
+I4_2.Parent = Spinny
+I4_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+I4_2.BackgroundTransparency = 1.000
+I4_2.Position = UDim2.new(-0.0750600174, 0, 0.140086725, 0)
+I4_2.Size = UDim2.new(0, 200, 0, 200)
+I4_2.ZIndex = 3
+I4_2.Image = "rbxassetid://2092248396"
+I4_2.ImageTransparency = 0.300
+
+I3_2.Name = "I3"
+I3_2.Parent = Spinny
+I3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+I3_2.BackgroundTransparency = 1.000
+I3_2.Position = UDim2.new(-0.0750600174, 0, 0.140086725, 0)
+I3_2.Size = UDim2.new(0, 200, 0, 200)
+I3_2.ZIndex = 3
+I3_2.Image = "rbxassetid://2076519836"
+I3_2.ImageTransparency = 0.300
+
+I2_2.Name = "I2"
+I2_2.Parent = Spinny
+I2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+I2_2.BackgroundTransparency = 1.000
+I2_2.Position = UDim2.new(-0.0750600174, 0, 0.140086725, 0)
+I2_2.Size = UDim2.new(0, 200, 0, 200)
+I2_2.ZIndex = 3
+I2_2.Image = "rbxassetid://2076458450"
+I2_2.ImageTransparency = 0.300
+
+I1_2.Name = "I1"
+I1_2.Parent = Spinny
+I1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+I1_2.BackgroundTransparency = 1.000
+I1_2.Position = UDim2.new(-0.0750600174, 0, 0.140086725, 0)
+I1_2.Size = UDim2.new(0, 200, 0, 200)
+I1_2.ZIndex = 3
+I1_2.Image = "rbxassetid://2344851144"
+I1_2.ImageTransparency = 0.300
+
+Spinny3.Name = "Spinny3"
+Spinny3.Parent = Music_2
+Spinny3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Spinny3.BackgroundTransparency = 1.000
+Spinny3.Position = UDim2.new(0.0364431478, 0, 0.0499843806, 0)
+Spinny3.Size = UDim2.new(0.365889192, 0, 0.625117183, 0)
+Spinny3.ZIndex = 3
+
+I5_3.Name = "I5"
+I5_3.Parent = Spinny3
+I5_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+I5_3.BackgroundTransparency = 1.000
+I5_3.Position = UDim2.new(0.847736716, 0, 0.140086725, 0)
+I5_3.Size = UDim2.new(0, 200, 0, 200)
+I5_3.ZIndex = 3
+I5_3.Image = "rbxassetid://2344870656"
+I5_3.ImageColor3 = Color3.fromRGB(57, 0, 99)
+I5_3.ImageTransparency = 0.300
+
+I4_3.Name = "I4"
+I4_3.Parent = Spinny3
+I4_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+I4_3.BackgroundTransparency = 1.000
+I4_3.Position = UDim2.new(0.847736716, 0, 0.140086725, 0)
+I4_3.Size = UDim2.new(0, 200, 0, 200)
+I4_3.ZIndex = 3
+I4_3.Image = "rbxassetid://2092248396"
+I4_3.ImageColor3 = Color3.fromRGB(57, 0, 99)
+I4_3.ImageTransparency = 0.300
+
+I3_3.Name = "I3"
+I3_3.Parent = Spinny3
+I3_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+I3_3.BackgroundTransparency = 1.000
+I3_3.Position = UDim2.new(0.847736716, 0, 0.140086725, 0)
+I3_3.Size = UDim2.new(0, 200, 0, 200)
+I3_3.ZIndex = 3
+I3_3.Image = "rbxassetid://2076519836"
+I3_3.ImageColor3 = Color3.fromRGB(57, 0, 99)
+I3_3.ImageTransparency = 0.300
+
+I2_3.Name = "I2"
+I2_3.Parent = Spinny3
+I2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+I2_3.BackgroundTransparency = 1.000
+I2_3.Position = UDim2.new(0.847736716, 0, 0.140086725, 0)
+I2_3.Size = UDim2.new(0, 200, 0, 200)
+I2_3.ZIndex = 3
+I2_3.Image = "rbxassetid://2076458450"
+I2_3.ImageColor3 = Color3.fromRGB(57, 0, 99)
+I2_3.ImageTransparency = 0.300
+
+I1_3.Name = "I1"
+I1_3.Parent = Spinny3
+I1_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+I1_3.BackgroundTransparency = 1.000
+I1_3.Position = UDim2.new(0.847736716, 0, 0.140086725, 0)
+I1_3.Size = UDim2.new(0, 200, 0, 200)
+I1_3.ZIndex = 3
+I1_3.Image = "rbxassetid://2344851144"
+I1_3.ImageColor3 = Color3.fromRGB(57, 0, 99)
+I1_3.ImageTransparency = 0.300
+
+Frame_10.Name = "Frame"
+Frame_10.Parent = Music_2
+Frame_10.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Frame_10.BorderColor3 = Color3.fromRGB(35, 35, 35)
+Frame_10.BorderSizePixel = 0
+Frame_10.Position = UDim2.new(0.00546647236, 0, 0, 0)
+Frame_10.Selectable = false
+Frame_10.Size = UDim2.new(0, 0, 0, 320)
+Frame_10.ZIndex = 5
+
+Buttons.Name = "Buttons"
+Buttons.Parent = Frame_10
+Buttons.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Buttons.BackgroundTransparency = 1.000
+Buttons.Position = UDim2.new(0, 0, 0.15625, 0)
+Buttons.Size = UDim2.new(1, 0, 0, 270)
+Buttons.Visible = false
+
+UIGridLayout.Parent = Buttons
+UIGridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout.CellSize = UDim2.new(0, 172, 0, 35)
+
+Revenge.Name = "Revenge"
+Revenge.Parent = Buttons
+Revenge.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Revenge.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Revenge.BorderSizePixel = 0
+Revenge.Size = UDim2.new(0, 175, 0, 50)
+Revenge.ZIndex = 7
+Revenge.Font = Enum.Font.PatrickHand
+Revenge.Text = "Revenge song"
+Revenge.TextColor3 = Color3.fromRGB(255, 255, 255)
+Revenge.TextSize = 25.000
+
+Viet.Name = "Viet"
+Viet.Parent = Buttons
+Viet.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Viet.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Viet.BorderSizePixel = 0
+Viet.Size = UDim2.new(0, 175, 0, 50)
+Viet.ZIndex = 7
+Viet.Font = Enum.Font.PatrickHand
+Viet.Text = "Glitchy songo"
+Viet.TextColor3 = Color3.fromRGB(0, 12, 255)
+Viet.TextSize = 25.000
+
+Galaxy_Collapse.Name = "Galaxy_Collapse"
+Galaxy_Collapse.Parent = Buttons
+Galaxy_Collapse.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Galaxy_Collapse.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Galaxy_Collapse.BorderSizePixel = 0
+Galaxy_Collapse.Size = UDim2.new(0, 175, 0, 50)
+Galaxy_Collapse.ZIndex = 7
+Galaxy_Collapse.Font = Enum.Font.PatrickHand
+Galaxy_Collapse.Text = "Galaxy Collapse"
+Galaxy_Collapse.TextColor3 = Color3.fromRGB(0, 12, 255)
+Galaxy_Collapse.TextSize = 25.000
+
+Warak_Reanimate.Name = "Warak_Reanimate"
+Warak_Reanimate.Parent = Buttons
+Warak_Reanimate.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Warak_Reanimate.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Warak_Reanimate.BorderSizePixel = 0
+Warak_Reanimate.Size = UDim2.new(0, 175, 0, 50)
+Warak_Reanimate.ZIndex = 7
+Warak_Reanimate.Font = Enum.Font.PatrickHand
+Warak_Reanimate.Text = "Warak Reanimate"
+Warak_Reanimate.TextColor3 = Color3.fromRGB(0, 12, 255)
+Warak_Reanimate.TextSize = 25.000
+
+Corpse.Name = "Corpse"
+Corpse.Parent = Buttons
+Corpse.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Corpse.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Corpse.BorderSizePixel = 0
+Corpse.Size = UDim2.new(0, 175, 0, 50)
+Corpse.ZIndex = 7
+Corpse.Font = Enum.Font.PatrickHand
+Corpse.Text = "Corpse"
+Corpse.TextColor3 = Color3.fromRGB(0, 12, 255)
+Corpse.TextSize = 25.000
+
+The_Big_Black.Name = "The_Big_Black"
+The_Big_Black.Parent = Buttons
+The_Big_Black.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+The_Big_Black.BorderColor3 = Color3.fromRGB(255, 0, 0)
+The_Big_Black.BorderSizePixel = 0
+The_Big_Black.Size = UDim2.new(0, 175, 0, 50)
+The_Big_Black.ZIndex = 7
+The_Big_Black.Font = Enum.Font.PatrickHand
+The_Big_Black.Text = "The Big Black"
+The_Big_Black.TextColor3 = Color3.fromRGB(0, 12, 255)
+The_Big_Black.TextSize = 25.000
+
+Ghost.Name = "Ghost"
+Ghost.Parent = Buttons
+Ghost.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Ghost.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Ghost.BorderSizePixel = 0
+Ghost.Size = UDim2.new(0, 175, 0, 50)
+Ghost.ZIndex = 7
+Ghost.Font = Enum.Font.PatrickHand
+Ghost.Text = "Ghost fnf ver"
+Ghost.TextColor3 = Color3.fromRGB(0, 12, 255)
+Ghost.TextSize = 25.000
+
+Grim.Name = "Grim"
+Grim.Parent = Buttons
+Grim.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Grim.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Grim.BorderSizePixel = 0
+Grim.Size = UDim2.new(0, 175, 0, 50)
+Grim.ZIndex = 7
+Grim.Font = Enum.Font.PatrickHand
+Grim.Text = "Grim"
+Grim.TextColor3 = Color3.fromRGB(0, 12, 255)
+Grim.TextSize = 25.000
+
+A.Name = "A"
+A.Parent = Frame_10
+A.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+A.BorderColor3 = Color3.fromRGB(255, 255, 255)
+A.BorderSizePixel = 0
+A.Size = UDim2.new(0, 175, 0, 35)
+A.Visible = false
+A.ZIndex = 7
+A.Font = Enum.Font.Kalam
+A.Text = "Songs"
+A.TextColor3 = Color3.fromRGB(255, 0, 0)
+A.TextSize = 35.000
+
+TextButton.Parent = Music
+TextButton.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+TextButton.Position = UDim2.new(0.00512445113, 0, 0.397014916, -25)
+TextButton.Size = UDim2.new(0, 200, 0, 64)
+TextButton.Visible = false
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Music "
+TextButton.TextColor3 = Color3.fromRGB(44, 44, 44)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UICorner_11.Parent = TextButton
+
+tweenedButton.Name = "tweened Button"
+tweenedButton.Parent = Music
+tweenedButton.AnchorPoint = Vector2.new(0.5, 0.5)
+tweenedButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tweenedButton.Position = UDim2.new(0.5, -100, 0.5, -500)
+tweenedButton.Size = UDim2.new(0, 200, 0, 50)
+tweenedButton.Font = Enum.Font.SourceSans
+tweenedButton.Text = "Load Music"
+tweenedButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+tweenedButton.TextSize = 14.000
+
+UICorner_12.Parent = tweenedButton
+
+-- Scripts:
+
+local function LCCZ_fake_script() -- Music_2.playback_loud 
+	local script = Instance.new('LocalScript', Music_2)
+
+	local RS = game:GetService("RunService")
+	RS.RenderStepped:Connect(function()
+		local sound = script.Parent.Music.PlaybackLoudness
+		for i, v in pairs(script.Parent.tings:GetChildren()) do
+			v.Size = UDim2.new(0.1,0,sound/math.random(800,1100),1)
+		end
+		wait()
+	end)
+end
+coroutine.wrap(LCCZ_fake_script)()
+local function NDOPEF_fake_script() -- Frame1.LocalScript 
+	local script = Instance.new('LocalScript', Frame1)
+
+	wait(4)
+	local sound = script.Parent.Parent.Music
+	
+	local volume = script.Parent.Volume
+	
+	local mframe = script.Parent
+	
+	local play = script.Parent.Play
+	
+	local loop = script.Parent.Loop
+	
+	local stop = script.Parent.Stop
+	
+	local pause = script.Parent.Pause
+	
+	local Playlist = script.Parent.Playlist
+	
+	local Close = script.Parent.Parent.Close
+	
+	local on = false
+	
+	local onn = false
+	
+	idthingy = "http://www.roblox.com/asset/?id=##ID##"
+	
+	loop.MouseButton1Click:connect(function()
+		if on == false then
+			sound.Looped = true 
+			loop.Text = "LOOP: ON"
+			on = true
+		elseif on == true then 
+			sound.Looped = false 
+			loop.Text = "LOOP: OFF"
+			on = false
+		end
+	end)
+	
+	play.MouseButton1Click:Connect(function()
+		local ting = tonumber(mframe:WaitForChild("id").Text)
+		sound.SoundId=idthingy:gsub("##ID##", tostring(ting))
+		sound.Volume = volume.Text
+		sound:Play()
+	end)
+	
+	stop.MouseButton1Click:Connect(function()
+		sound:Stop()
+	end)
+	
+	pause.MouseButton1Click:Connect(function()
+		if onn == false then 
+			sound:Pause()
+			pause.Text = "PAUSED"
+			onn = true
+		elseif onn == true then
+			pause.Text = "PAUSE"
+			sound:Play()
+			onn = false
+		end
+	end)
+	
+	Playlist.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame:TweenSize(UDim2.new(0, 175,0, 320), "Out", "Quart",1)
+		wait(1)
+		script.Parent.Parent.Frame.Buttons.Visible = true
+		script.Parent.Parent.Frame.A.Visible = true
+		script.Parent.Parent.Frame.BorderSizePixel = 1
+		Close.Visible = true
+	end)
+	Close.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame.Buttons.Visible = false
+		script.Parent.Parent.Frame.A.Visible = false
+		script.Parent.Parent.Frame.BorderSizePixel = 0
+		script.Parent.Parent.Frame:TweenSize(UDim2.new(0, 0,0, 320), "In", "Quart",1)
+		Close.Visible = false
+	end)
+	
+end
+coroutine.wrap(NDOPEF_fake_script)()
+local function LGSVNG_fake_script() -- Music_remover.LocalScript 
+	local script = Instance.new('LocalScript', Music_remover)
+
+	script.Parent.MouseButton1Click:connect(function()
+		local mouse = game.Players.LocalPlayer:GetMouse()
+		for _, instance in pairs(game.Players.LocalPlayer.StarterPlaylist:GetDescendants()) do
+			if instance:IsA("Sound") then
+				instance:Destroy()
+			end
+			end
+	end)
+end
+coroutine.wrap(LGSVNG_fake_script)()
+local function PSNSHN_fake_script() -- Music_2.Music_adder 
+	local script = Instance.new('LocalScript', Music_2)
+
+	local bypass = Instance.new("BoolValue")
+	bypass.Name = "Value"
+	bypass.Parent = script.Parent.Frame1.Play
+	
+	local musicbruh = Instance.new("Sound")
+	musicbruh.Name = "Music"
+	musicbruh.Parent = script.Parent
+end
+coroutine.wrap(PSNSHN_fake_script)()
+local function YBQMRO_fake_script() -- back.LocalScript 
+	local script = Instance.new('LocalScript', back)
+
+	script.Parent.MouseButton1Click:connect(function()
+		local mouse = game.Players.LocalPlayer:GetMouse()
+	
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Notification!";
+			Text = "Switching pages..";
+			Duration = 5;
+		})
+		
+		script.Parent.Parent.Parent.Music.Visible = false
+		script.Parent.Parent.Parent.Gradient.Visible = true
+	end)
+end
+coroutine.wrap(YBQMRO_fake_script)()
+local function DBWSJE_fake_script() -- I5.LocalScript 
+	local script = Instance.new('LocalScript', I5)
+
+	
+	local ned = script.Parent
+	
+	coroutine.resume(coroutine.create(function()
+	while true do
+		for i = 1,50 do
+		wait(0.001)
+		ned.Rotation = ned.Rotation - 2
+				local saud = script.Parent.Parent.Parent:WaitForChild("Music").PlaybackLoudness/58 - 1
+		ned.Rotation = ned.Rotation - saud
+	end
+	end
+	end))
+	
+end
+coroutine.wrap(DBWSJE_fake_script)()
+local function JPLZ_fake_script() -- I4.LocalScript 
+	local script = Instance.new('LocalScript', I4)
+
+	
+	local ned = script.Parent
+	
+	coroutine.resume(coroutine.create(function()
+	while true do
+		for i = 1,50 do
+		wait(0.001)
+		ned.Rotation = ned.Rotation + 2
+				local saud = script.Parent.Parent.Parent:WaitForChild("Music").PlaybackLoudness/54 + 1
+		ned.Rotation = ned.Rotation + saud
+	end
+	end
+	end))
+	
+end
+coroutine.wrap(JPLZ_fake_script)()
+local function NJCCDB_fake_script() -- I3.LocalScript 
+	local script = Instance.new('LocalScript', I3)
+
+	
+	local ned = script.Parent
+	
+	coroutine.resume(coroutine.create(function()
+	while true do
+		for i = 1,50 do
+		wait(0.001)
+		ned.Rotation = ned.Rotation - 2
+				local saud = script.Parent.Parent.Parent:WaitForChild("Music").PlaybackLoudness/54 - 1
+		ned.Rotation = ned.Rotation - saud
+	end
+	end
+	end))
+	
+end
+coroutine.wrap(NJCCDB_fake_script)()
+local function YIDXKWG_fake_script() -- I2.LocalScript 
+	local script = Instance.new('LocalScript', I2)
+
+	
+	local ned = script.Parent
+	
+	coroutine.resume(coroutine.create(function()
+	while true do
+		for i = 1,50 do
+		wait(0.001)
+		ned.Rotation = ned.Rotation + 2
+				local saud = script.Parent.Parent.Parent:WaitForChild("Music").PlaybackLoudness/50 - 1
+		ned.Rotation = ned.Rotation + saud
+	end
+	end
+	end))
+	
+end
+coroutine.wrap(YIDXKWG_fake_script)()
+local function TIMIWY_fake_script() -- I1.LocalScript 
+	local script = Instance.new('LocalScript', I1)
+
+	
+	local ned = script.Parent
+	
+	coroutine.resume(coroutine.create(function()
+	while true do
+		for i = 1,50 do
+		wait(0.001)
+		ned.Rotation = ned.Rotation - 2
+		local saud = script.Parent.Parent.Parent:WaitForChild("Music").PlaybackLoudness/50 - 1
+		ned.Rotation = ned.Rotation - saud
+	end
+	end
+	end))
+	
+end
+coroutine.wrap(TIMIWY_fake_script)()
+local function WCBQZWJ_fake_script() -- I5_2.LocalScript 
+	local script = Instance.new('LocalScript', I5_2)
+
+	
+	local ned = script.Parent
+	
+	coroutine.resume(coroutine.create(function()
+	while true do
+		for i = 1,50 do
+		wait(0.001)
+		ned.Rotation = ned.Rotation + 2
+				local saud = script.Parent.Parent.Parent:WaitForChild("Music").PlaybackLoudness/58 + 1
+		ned.Rotation = ned.Rotation + saud
+	end
+	end
+	end))
+	
+end
+coroutine.wrap(WCBQZWJ_fake_script)()
+local function EVHLO_fake_script() -- I4_2.LocalScript 
+	local script = Instance.new('LocalScript', I4_2)
+
+	
+	local ned = script.Parent
+	
+	coroutine.resume(coroutine.create(function()
+	while true do
+		for i = 1,50 do
+		wait(0.001)
+		ned.Rotation = ned.Rotation - 2
+				local saud = script.Parent.Parent.Parent:WaitForChild("Music").PlaybackLoudness/54 - 1
+		ned.Rotation = ned.Rotation - saud
+	end
+	end
+	end))
+	
+end
+coroutine.wrap(EVHLO_fake_script)()
+local function WUIH_fake_script() -- I3_2.LocalScript 
+	local script = Instance.new('LocalScript', I3_2)
+
+	
+	local ned = script.Parent
+	
+	coroutine.resume(coroutine.create(function()
+	while true do
+		for i = 1,50 do
+		wait(0.001)
+		ned.Rotation = ned.Rotation + 2
+				local saud = script.Parent.Parent.Parent:WaitForChild("Music").PlaybackLoudness/54 + 1
+		ned.Rotation = ned.Rotation + saud
+	end
+	end
+	end))
+	
+end
+coroutine.wrap(WUIH_fake_script)()
+local function INMU_fake_script() -- I2_2.LocalScript 
+	local script = Instance.new('LocalScript', I2_2)
+
+	
+	local ned = script.Parent
+	
+	coroutine.resume(coroutine.create(function()
+	while true do
+		for i = 1,50 do
+		wait(0.001)
+		ned.Rotation = ned.Rotation - 2
+				local saud = script.Parent.Parent.Parent:WaitForChild("Music").PlaybackLoudness/50 + 1
+		ned.Rotation = ned.Rotation - saud
+	end
+	end
+	end))
+	
+end
+coroutine.wrap(INMU_fake_script)()
+local function YHFDXSP_fake_script() -- I1_2.LocalScript 
+	local script = Instance.new('LocalScript', I1_2)
+
+	
+	local ned = script.Parent
+	
+	coroutine.resume(coroutine.create(function()
+		while true do
+			for i = 1,50 do
+				wait(0.001)
+				ned.Rotation = ned.Rotation + 2
+				local saud = script.Parent.Parent.Parent:WaitForChild("Music").PlaybackLoudness/54 + 1
+				ned.Rotation = ned.Rotation + saud
+			end
+		end
+	end))
+	
+end
+coroutine.wrap(YHFDXSP_fake_script)()
+local function YCAWKX_fake_script() -- I5_3.LocalScript 
+	local script = Instance.new('LocalScript', I5_3)
+
+	
+	local ned = script.Parent
+	
+	coroutine.resume(coroutine.create(function()
+	while true do
+		for i = 1,50 do
+		wait(0.001)
+		ned.Rotation = ned.Rotation + 2
+				local saud = script.Parent.Parent.Parent:WaitForChild("Music").PlaybackLoudness/58 + 1
+		ned.Rotation = ned.Rotation + saud
+	end
+	end
+	end))
+	
+end
+coroutine.wrap(YCAWKX_fake_script)()
+local function OUWBIZ_fake_script() -- I4_3.LocalScript 
+	local script = Instance.new('LocalScript', I4_3)
+
+	
+	local ned = script.Parent
+	
+	coroutine.resume(coroutine.create(function()
+	while true do
+		for i = 1,50 do
+		wait(0.001)
+		ned.Rotation = ned.Rotation - 2
+				local saud = script.Parent.Parent.Parent:WaitForChild("Music").PlaybackLoudness/54 - 1
+		ned.Rotation = ned.Rotation - saud
+	end
+	end
+	end))
+	
+end
+coroutine.wrap(OUWBIZ_fake_script)()
+local function BBDYXQP_fake_script() -- I3_3.LocalScript 
+	local script = Instance.new('LocalScript', I3_3)
+
+	
+	local ned = script.Parent
+	
+	coroutine.resume(coroutine.create(function()
+	while true do
+		for i = 1,50 do
+		wait(0.001)
+		ned.Rotation = ned.Rotation + 2
+				local saud = script.Parent.Parent.Parent:WaitForChild("Music").PlaybackLoudness/54 + 1
+		ned.Rotation = ned.Rotation + saud
+	end
+	end
+	end))
+	
+end
+coroutine.wrap(BBDYXQP_fake_script)()
+local function JSIMMF_fake_script() -- I2_3.LocalScript 
+	local script = Instance.new('LocalScript', I2_3)
+
+	
+	local ned = script.Parent
+	
+	coroutine.resume(coroutine.create(function()
+	while true do
+		for i = 1,50 do
+		wait(0.001)
+		ned.Rotation = ned.Rotation - 2
+				local saud = script.Parent.Parent.Parent:WaitForChild("Music").PlaybackLoudness/50 + 1
+		ned.Rotation = ned.Rotation - saud
+	end
+	end
+	end))
+	
+end
+coroutine.wrap(JSIMMF_fake_script)()
+local function KSQPZUT_fake_script() -- I1_3.LocalScript 
+	local script = Instance.new('LocalScript', I1_3)
+
+	
+	local ned = script.Parent
+	
+	coroutine.resume(coroutine.create(function()
+		while true do
+			for i = 1,50 do
+				wait(0.001)
+				ned.Rotation = ned.Rotation + 2
+				local saud = script.Parent.Parent.Parent:WaitForChild("Music").PlaybackLoudness/54 + 1
+				ned.Rotation = ned.Rotation + saud
+			end
+		end
+	end))
+	
+end
+coroutine.wrap(KSQPZUT_fake_script)()
+local function MEFDXAP_fake_script() -- Revenge.LocalScript 
+	local script = Instance.new('LocalScript', Revenge)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Frame1.id.Text = "4921647660"
+	end)
+end
+coroutine.wrap(MEFDXAP_fake_script)()
+local function WCZYX_fake_script() -- Revenge.RainbowText 
+	local script = Instance.new('Script', Revenge)
+
+	while true do
+		script.Parent.TextColor3 = Color3.new(1,0,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.2,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.3,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.4,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.5,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.6,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.7,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.8,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.9,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.9,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.8,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.7,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.6,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.5,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.4,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.3,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.2,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.1,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.2)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.3)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.4)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.5)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.6)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.7)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.8)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.9)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.9,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.8,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.7,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.6,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.5,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.4,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.3,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.2,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.1,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.1,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.2,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.3,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.4,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.5,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.6,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.7,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.8,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.9,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.9)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.8)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.7)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.6)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.5)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.4)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.3)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.2)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.1)
+		wait(0.01)
+	end
+	
+end
+coroutine.wrap(WCZYX_fake_script)()
+local function NISP_fake_script() -- Viet.LocalScript 
+	local script = Instance.new('LocalScript', Viet)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Frame1.id.Text = "1416035124"
+	end)
+end
+coroutine.wrap(NISP_fake_script)()
+local function JDBUIHB_fake_script() -- Galaxy_Collapse.LocalScript 
+	local script = Instance.new('LocalScript', Galaxy_Collapse)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Frame1.id.Text = "4547684493"
+	end)
+end
+coroutine.wrap(JDBUIHB_fake_script)()
+local function VNAEUOB_fake_script() -- Warak_Reanimate.LocalScript 
+	local script = Instance.new('LocalScript', Warak_Reanimate)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Frame1.id.Text = "318062766"
+	end)
+end
+coroutine.wrap(VNAEUOB_fake_script)()
+local function HJBCEO_fake_script() -- Corpse.LocalScript 
+	local script = Instance.new('LocalScript', Corpse)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Frame1.id.Text = "6087386152"
+	end)
+end
+coroutine.wrap(HJBCEO_fake_script)()
+local function OQHEDGG_fake_script() -- The_Big_Black.LocalScript 
+	local script = Instance.new('LocalScript', The_Big_Black)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Frame1.id.Text = "183142252"
+	end)
+end
+coroutine.wrap(OQHEDGG_fake_script)()
+local function ZNPJNZ_fake_script() -- Ghost.LocalScript 
+	local script = Instance.new('LocalScript', Ghost)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Frame1.id.Text = "7078537811"
+	end)
+end
+coroutine.wrap(ZNPJNZ_fake_script)()
+local function LCHOWX_fake_script() -- Grim.LocalScript 
+	local script = Instance.new('LocalScript', Grim)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Frame1.id.Text = "5773189538"
+	end)
+end
+coroutine.wrap(LCHOWX_fake_script)()
+local function OYCFJ_fake_script() -- Music_2.Script 
+	local script = Instance.new('Script', Music_2)
+
+	script.Parent.Draggable = true
+end
+coroutine.wrap(OYCFJ_fake_script)()
+local function RXVS_fake_script() -- Music_2.Dragify 
+	local script = Instance.new('LocalScript', Music_2)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(RXVS_fake_script)()
+local function QANXBBQ_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Music.Visible = not script.Parent.Parent.Music.Visible
+	end)
+end
+coroutine.wrap(QANXBBQ_fake_script)()
+local function VTJTNRX_fake_script() -- tweenedButton.Go down 
+	local script = Instance.new('LocalScript', tweenedButton)
+
+	wait(5)
+	script.Parent:TweenPosition(UDim2.new(0.625, -171,0.738, -96),"Out","Elastic",1)
+end
+coroutine.wrap(VTJTNRX_fake_script)()
+local function XEHI_fake_script() -- tweenedButton.Size 
+	local script = Instance.new('LocalScript', tweenedButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Text = "ok"
+		script.Parent.TextSize = 100
+		script.Parent:TweenSize(UDim2.new(0, 619,0, 354),"Out","Linear",1)
+		wait(1)
+		script.Parent:TweenPosition(UDim2.new(2, 0,0.493, -25),"Out","Elastic",1)
+		wait(1)
+		script.Parent.Parent.TextButton.Visible = true
+		script.Parent:Destroy()
+	end)
+end
+coroutine.wrap(XEHI_fake_script)()
