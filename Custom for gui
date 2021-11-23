@@ -111,7 +111,7 @@ tweenedButton.Name = "tweened Button"
 tweenedButton.Parent = Customs
 tweenedButton.AnchorPoint = Vector2.new(0.5, 0.5)
 tweenedButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-tweenedButton.Position = UDim2.new(0.5, -100, 0.5, -500)
+tweenedButton.Position = UDim2.new(0.5, -3000, 0.5, -500)
 tweenedButton.Size = UDim2.new(0, 200, 0, 50)
 tweenedButton.Font = Enum.Font.SourceSans
 tweenedButton.Text = "Load customs"
@@ -122,7 +122,7 @@ UICorner_3.Parent = tweenedButton
 
 -- Scripts:
 
-local function QXHJW_fake_script() -- idk.Hatechara Loader 
+local function VRMCUM_fake_script() -- idk.Hatechara Loader 
 	local script = Instance.new('LocalScript', idk)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -292,15 +292,15 @@ local function QXHJW_fake_script() -- idk.Hatechara Loader
 		game.Players.LocalPlayer.Character["HateArm"]:Destroy()
 	end)
 end
-coroutine.wrap(QXHJW_fake_script)()
-local function EAMSCAM_fake_script() -- Gradient2.Dragify 
+coroutine.wrap(VRMCUM_fake_script)()
+local function RQJNKYW_fake_script() -- Gradient2.Dragify 
 	local script = Instance.new('LocalScript', Gradient2)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(EAMSCAM_fake_script)()
-local function ZTOC_fake_script() -- dontaskcustom.Dont ask Loader 
+coroutine.wrap(RQJNKYW_fake_script)()
+local function ASEIIU_fake_script() -- dontaskcustom.Dont ask Loader 
 	local script = Instance.new('LocalScript', dontaskcustom)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -339,8 +339,8 @@ local function ZTOC_fake_script() -- dontaskcustom.Dont ask Loader
 		game.Players.LocalPlayer.Character["HateArm"]:Destroy()
 	end)
 end
-coroutine.wrap(ZTOC_fake_script)()
-local function QOGVINT_fake_script() -- Jassfinishedtbelb.Dont ask Loader 
+coroutine.wrap(ASEIIU_fake_script)()
+local function EWDOWF_fake_script() -- Jassfinishedtbelb.Dont ask Loader 
 	local script = Instance.new('LocalScript', Jassfinishedtbelb)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1431,24 +1431,24 @@ local function QOGVINT_fake_script() -- Jassfinishedtbelb.Dont ask Loader
 	
 	end)
 end
-coroutine.wrap(QOGVINT_fake_script)()
-local function GQBP_fake_script() -- Openbutton.LocalScript 
+coroutine.wrap(EWDOWF_fake_script)()
+local function IUQCQDN_fake_script() -- Openbutton.LocalScript 
 	local script = Instance.new('LocalScript', Openbutton)
 
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.Gradient2.Visible = not script.Parent.Parent.Gradient2.Visible
 	end)
 end
-coroutine.wrap(GQBP_fake_script)()
-local function ZHTOCT_fake_script() -- tweenedButton.Go down 
+coroutine.wrap(IUQCQDN_fake_script)()
+local function NBNA_fake_script() -- tweenedButton.Go down 
 	local script = Instance.new('LocalScript', tweenedButton)
 
 	wait(5)
 	script.Parent:TweenPosition(UDim2.new(0.625, -171,0.564, -96),"Out","Elastic",1)
 	
 end
-coroutine.wrap(ZHTOCT_fake_script)()
-local function VHHLSM_fake_script() -- tweenedButton.Size 
+coroutine.wrap(NBNA_fake_script)()
+local function URSY_fake_script() -- tweenedButton.Size 
 	local script = Instance.new('LocalScript', tweenedButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1462,4 +1462,4 @@ local function VHHLSM_fake_script() -- tweenedButton.Size
 		script.Parent:Destroy()
 	end)
 end
-coroutine.wrap(VHHLSM_fake_script)()
+coroutine.wrap(URSY_fake_script)()
