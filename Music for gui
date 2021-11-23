@@ -2275,3 +2275,4 @@ local function FHTTTQ_fake_script() -- tweenedButton.Size
 	end)
 end
 coroutine.wrap(FHTTTQ_fake_script)()
+print("Yes")
