@@ -22,6 +22,7 @@ local Credits = Instance.new("TextLabel")
 local Cosmetics_2 = Instance.new("TextButton")
 local HideChat = Instance.new("TextButton")
 local Rejoin = Instance.new("TextButton")
+local Kill_aura = Instance.new("TextButton")
 local OpenMisc = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local tweenedButton = Instance.new("TextButton")
@@ -215,6 +216,19 @@ Rejoin.TextScaled = true
 Rejoin.TextSize = 14.000
 Rejoin.TextWrapped = true
 
+Kill_aura.Name = "Kill_aura"
+Kill_aura.Parent = Gradient
+Kill_aura.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Kill_aura.BackgroundTransparency = 1.000
+Kill_aura.Position = UDim2.new(0.00807754509, 0, 0.734463215, 0)
+Kill_aura.Size = UDim2.new(0, 200, 0, 50)
+Kill_aura.Font = Enum.Font.SourceSans
+Kill_aura.Text = "Kill aura"
+Kill_aura.TextColor3 = Color3.fromRGB(162, 139, 100)
+Kill_aura.TextScaled = true
+Kill_aura.TextSize = 14.000
+Kill_aura.TextWrapped = true
+
 OpenMisc.Name = "OpenMisc"
 OpenMisc.Parent = SomerandomGui
 OpenMisc.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -247,7 +261,7 @@ UICorner_4.Parent = tweenedButton
 
 -- Scripts:
 
-local function DDSNEKL_fake_script() -- Cosmetics.LocalScript 
+local function IWWI_fake_script() -- Cosmetics.LocalScript 
 	local script = Instance.new('LocalScript', Cosmetics)
 
 	local button = script.Parent
@@ -271,8 +285,8 @@ local function DDSNEKL_fake_script() -- Cosmetics.LocalScript
 	end
 	animate()
 end
-coroutine.wrap(DDSNEKL_fake_script)()
-local function YBXCBZ_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(IWWI_fake_script)()
+local function DTKV_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -288,8 +302,8 @@ local function YBXCBZ_fake_script() -- TextButton.LocalScript
 		script.Parent.Parent.Parent.Gradient.Visible = true
 	end)
 end
-coroutine.wrap(YBXCBZ_fake_script)()
-local function XRQXOG_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(DTKV_fake_script)()
+local function CQYWWF_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1464,8 +1478,8 @@ local function XRQXOG_fake_script() -- TextButton_2.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(XRQXOG_fake_script)()
-local function SKCFDB_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(CQYWWF_fake_script)()
+local function XETCQDA_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1499,15 +1513,15 @@ local function SKCFDB_fake_script() -- TextButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SKCFDB_fake_script)()
-local function FQIEQT_fake_script() -- Cosmetics.Dragify 
+coroutine.wrap(XETCQDA_fake_script)()
+local function YYQDME_fake_script() -- Cosmetics.Dragify 
 	local script = Instance.new('LocalScript', Cosmetics)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(FQIEQT_fake_script)()
-local function BWJOMS_fake_script() -- Gradient.keytoggle 
+coroutine.wrap(YYQDME_fake_script)()
+local function SBSSNLD_fake_script() -- Gradient.keytoggle 
 	local script = Instance.new('LocalScript', Gradient)
 
 	function onKeyPress(inputObject, gameProcessedEvent)
@@ -1520,8 +1534,8 @@ local function BWJOMS_fake_script() -- Gradient.keytoggle
 		end
 	end
 end
-coroutine.wrap(BWJOMS_fake_script)()
-local function IYDH_fake_script() -- Gradient.LocalScript 
+coroutine.wrap(SBSSNLD_fake_script)()
+local function PDKQMQK_fake_script() -- Gradient.LocalScript 
 	local script = Instance.new('LocalScript', Gradient)
 
 	local button = script.Parent
@@ -1545,8 +1559,8 @@ local function IYDH_fake_script() -- Gradient.LocalScript
 	end
 	animate()
 end
-coroutine.wrap(IYDH_fake_script)()
-local function JVQA_fake_script() -- AntiLag.LocalScript 
+coroutine.wrap(PDKQMQK_fake_script)()
+local function SKDODKM_fake_script() -- AntiLag.LocalScript 
 	local script = Instance.new('LocalScript', AntiLag)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1584,8 +1598,8 @@ local function JVQA_fake_script() -- AntiLag.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JVQA_fake_script)()
-local function QEKJ_fake_script() -- KillCommand.LocalScript 
+coroutine.wrap(SKDODKM_fake_script)()
+local function EUHR_fake_script() -- KillCommand.LocalScript 
 	local script = Instance.new('LocalScript', KillCommand)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1666,8 +1680,8 @@ local function QEKJ_fake_script() -- KillCommand.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(QEKJ_fake_script)()
-local function TTYYU_fake_script() -- Cosmetics_2.LocalScript 
+coroutine.wrap(EUHR_fake_script)()
+local function YNNGLDL_fake_script() -- Cosmetics_2.LocalScript 
 	local script = Instance.new('LocalScript', Cosmetics_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1683,8 +1697,8 @@ local function TTYYU_fake_script() -- Cosmetics_2.LocalScript
 		script.Parent.Parent.Parent.Cosmetics.Visible = true
 	end)
 end
-coroutine.wrap(TTYYU_fake_script)()
-local function ARTMB_fake_script() -- HideChat.LocalScript 
+coroutine.wrap(YNNGLDL_fake_script)()
+local function RZVE_fake_script() -- HideChat.LocalScript 
 	local script = Instance.new('LocalScript', HideChat)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1710,8 +1724,8 @@ local function ARTMB_fake_script() -- HideChat.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(ARTMB_fake_script)()
-local function SHCT_fake_script() -- Rejoin.LocalScript 
+coroutine.wrap(RZVE_fake_script)()
+local function SWJC_fake_script() -- Rejoin.LocalScript 
 	local script = Instance.new('LocalScript', Rejoin)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1723,23 +1737,133 @@ local function SHCT_fake_script() -- Rejoin.LocalScript
 		})
 	end)
 end
-coroutine.wrap(SHCT_fake_script)()
-local function SVEP_fake_script() -- Gradient.Dragify 
+coroutine.wrap(SWJC_fake_script)()
+local function JVOEOEI_fake_script() -- Gradient.Dragify 
 	local script = Instance.new('LocalScript', Gradient)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(SVEP_fake_script)()
-local function GLOMDX_fake_script() -- OpenMisc.LocalScript 
+coroutine.wrap(JVOEOEI_fake_script)()
+local function VHAVDI_fake_script() -- Kill_aura.Kill aura 
+	local script = Instance.new('LocalScript', Kill_aura)
+
+	script.Parent.MouseButton1Click:connect(function()
+		local mouse = game.Players.LocalPlayer:GetMouse()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Notification!";
+			Text = "Press PgUp or Page up to start kill aura for GTC";
+			Duration = 5;
+		})
+		local userInputService = game:GetService("UserInputService")
+		sdis = false
+		local effects = game.Players.LocalPlayer.Character.Effects
+		local rs = game:GetService("RunService")
+		userInputService.InputBegan:Connect(function(input,gameProcessedEvent)
+			local keyPressed = input.KeyCode
+	
+			if not gameProcessedEvent then
+				if keyPressed == Enum.KeyCode.PageUp then
+	
+					--player is typing
+	
+					if sdis == true then
+						sdis = false
+					elseif sdis == false then
+						sdis = true
+						while sdis == true do
+							game:GetService("ReplicatedStorage").Remotes.Events:FireServer({
+								[1] = getrenv()._G.Pass,
+								[2] = "SlashEffect",
+								[3] = game:GetService("Players").LocalPlayer.Backpack.Main.CharaMoves.ModuleScript.Animations.Slash.Swing1,
+								[4] = Color3.fromRGB(255, 255, 255),
+								[5] = CFrame.Angles(0, 0, math.rad(0))})
+	
+							game:GetService("ReplicatedStorage").Remotes.Events:FireServer({
+								[1] = getrenv()._G.Pass,
+								[2] = "SlashEffect",
+								[3] = game:GetService("Players").LocalPlayer.Backpack.Main.CharaMoves.ModuleScript.Animations.Slash.Swing1,
+								[4] = Color3.fromRGB(0, 0, 0),
+								[5] = CFrame.Angles(0, 0, math.rad(180))})
+							local player = game.Players.LocalPlayer
+							local Character = player.Character
+							for _,b in pairs(game.workspace:GetChildren()) do
+	
+								if b:FindFirstChildOfClass('Humanoid') then
+									if b:FindFirstChild('Torso') then
+										range = (Character.PrimaryPart.Position - b.PrimaryPart.Position).Magnitude
+										if range <15 and b.Name ~= player.Name then
+											local args = {
+												[1] = {
+													[1] = getrenv()._G.Pass,
+													[2] = "KnifeProjectileOrange",
+													[3] = "Spawn",
+													[4] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position + game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector *10 + Vector3.new(math.random(0,35),math.random(0,30),math.random(0,33))
+												}
+											}
+	
+											game:GetService("ReplicatedStorage").Remotes.CharaMoves:InvokeServer(unpack(args))
+											local projectiles = game.Players.LocalPlayer.Character.Attacks
+											for i,v in pairs(projectiles:GetChildren()) do
+												if v.Name == "KnifeSlashProjectileOrange" or "Removing" then
+													local detect = rs.Heartbeat:Connect(function()
+														if b.Humanoid.Health == 0 or b.Name == "Hateball Defense Dummy" or b.Name == "Defense:250 Dummy" or b.Name == "HalfStaminaDummy" or b.Name == "BlockingDummy" or b.Name == "NoStaminaDummy" or b.Name == "AttackDummy" or b.Name == "DodgingDummy" or b.Name == "Defense:150 Dummy" or b.Name == "Hateball Defense Dummy" then
+															v:Destroy()
+															detect:disconnect()
+														else
+	
+															v.Position = b.LockOn.Position
+															local args = {
+																[1] = {
+																	[1] = getrenv()._G.Pass,
+																	[2] = "KnifeProjectileOrange",
+																	[3] = "Hit",
+																	[4] = game:GetService("Players").LocalPlayer.Character.Attacks.KnifeSlashProjectileOrange,
+																	[5] = b.HumanoidRootPart.CFrame,
+																	[6] = b.HumanoidRootPart
+																}
+															}
+	
+															game:GetService("ReplicatedStorage").Remotes.CharaMoves:InvokeServer(unpack(args))
+	
+	
+															effects:FindFirstChild("CarrotHitEffect"):Destroy()
+	
+	
+														end
+	
+													end)
+												end
+											end
+										end
+									end
+								end
+							end
+							wait(0.2)
+						end
+	
+					end
+				end
+			end
+		end)
+	
+		while true do wait()
+	
+			effects:FindFirstChild("CarrotHitEffect"):Destroy()
+	
+		end
+	end)
+end
+coroutine.wrap(VHAVDI_fake_script)()
+local function ACOEEG_fake_script() -- OpenMisc.LocalScript 
 	local script = Instance.new('LocalScript', OpenMisc)
 
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.Gradient.Visible = not script.Parent.Parent.Gradient.Visible
 	end)
 end
-coroutine.wrap(GLOMDX_fake_script)()
-local function FKYCIN_fake_script() -- SomerandomGui.Misc menu loader :troll: 
+coroutine.wrap(ACOEEG_fake_script)()
+local function DHTKMB_fake_script() -- SomerandomGui.Misc menu loader :troll: 
 	local script = Instance.new('LocalScript', SomerandomGui)
 
 		game.StarterGui:SetCore("SendNotification",  {
@@ -1749,15 +1873,15 @@ local function FKYCIN_fake_script() -- SomerandomGui.Misc menu loader :troll:
 			Duration = 10;
 		})
 end
-coroutine.wrap(FKYCIN_fake_script)()
-local function MTECHYL_fake_script() -- tweenedButton.Go down 
+coroutine.wrap(DHTKMB_fake_script)()
+local function IKGPEG_fake_script() -- tweenedButton.Go down 
 	local script = Instance.new('LocalScript', tweenedButton)
 
 	wait(5)
 	script.Parent:TweenPosition(UDim2.new(0.625, -171,0.643, -96),"Out","Elastic",1)
 end
-coroutine.wrap(MTECHYL_fake_script)()
-local function MYJABNO_fake_script() -- tweenedButton.Size 
+coroutine.wrap(IKGPEG_fake_script)()
+local function FLDRCCY_fake_script() -- tweenedButton.Size 
 	local script = Instance.new('LocalScript', tweenedButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1771,4 +1895,4 @@ local function MYJABNO_fake_script() -- tweenedButton.Size
 		script.Parent:Destroy()
 	end)
 end
-coroutine.wrap(MYJABNO_fake_script)()
+coroutine.wrap(FLDRCCY_fake_script)()
