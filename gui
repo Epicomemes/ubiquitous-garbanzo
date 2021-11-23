@@ -248,7 +248,7 @@ tweenedButton.Name = "tweened Button"
 tweenedButton.Parent = SomerandomGui
 tweenedButton.AnchorPoint = Vector2.new(0.5, 0.5)
 tweenedButton.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
-tweenedButton.Position = UDim2.new(0.5, -100, 0.5, -500)
+tweenedButton.Position = UDim2.new(0.5, -3000, 0.5, -500)
 tweenedButton.Size = UDim2.new(0, 200, 0, 50)
 tweenedButton.Font = Enum.Font.SourceSans
 tweenedButton.Text = "Open Misc "
@@ -261,7 +261,7 @@ UICorner_4.Parent = tweenedButton
 
 -- Scripts:
 
-local function IWWI_fake_script() -- Cosmetics.LocalScript 
+local function ZZWPAH_fake_script() -- Cosmetics.LocalScript 
 	local script = Instance.new('LocalScript', Cosmetics)
 
 	local button = script.Parent
@@ -285,8 +285,8 @@ local function IWWI_fake_script() -- Cosmetics.LocalScript
 	end
 	animate()
 end
-coroutine.wrap(IWWI_fake_script)()
-local function DTKV_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(ZZWPAH_fake_script)()
+local function AINALD_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -302,8 +302,8 @@ local function DTKV_fake_script() -- TextButton.LocalScript
 		script.Parent.Parent.Parent.Gradient.Visible = true
 	end)
 end
-coroutine.wrap(DTKV_fake_script)()
-local function CQYWWF_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(AINALD_fake_script)()
+local function CCDGL_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1478,8 +1478,8 @@ local function CQYWWF_fake_script() -- TextButton_2.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(CQYWWF_fake_script)()
-local function XETCQDA_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(CCDGL_fake_script)()
+local function DDROE_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1513,15 +1513,15 @@ local function XETCQDA_fake_script() -- TextButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XETCQDA_fake_script)()
-local function YYQDME_fake_script() -- Cosmetics.Dragify 
+coroutine.wrap(DDROE_fake_script)()
+local function ZOGBFWO_fake_script() -- Cosmetics.Dragify 
 	local script = Instance.new('LocalScript', Cosmetics)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(YYQDME_fake_script)()
-local function SBSSNLD_fake_script() -- Gradient.keytoggle 
+coroutine.wrap(ZOGBFWO_fake_script)()
+local function ZEEBSU_fake_script() -- Gradient.keytoggle 
 	local script = Instance.new('LocalScript', Gradient)
 
 	function onKeyPress(inputObject, gameProcessedEvent)
@@ -1534,8 +1534,8 @@ local function SBSSNLD_fake_script() -- Gradient.keytoggle
 		end
 	end
 end
-coroutine.wrap(SBSSNLD_fake_script)()
-local function PDKQMQK_fake_script() -- Gradient.LocalScript 
+coroutine.wrap(ZEEBSU_fake_script)()
+local function TORG_fake_script() -- Gradient.LocalScript 
 	local script = Instance.new('LocalScript', Gradient)
 
 	local button = script.Parent
@@ -1559,8 +1559,8 @@ local function PDKQMQK_fake_script() -- Gradient.LocalScript
 	end
 	animate()
 end
-coroutine.wrap(PDKQMQK_fake_script)()
-local function SKDODKM_fake_script() -- AntiLag.LocalScript 
+coroutine.wrap(TORG_fake_script)()
+local function ZVPATPM_fake_script() -- AntiLag.LocalScript 
 	local script = Instance.new('LocalScript', AntiLag)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1598,8 +1598,8 @@ local function SKDODKM_fake_script() -- AntiLag.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SKDODKM_fake_script)()
-local function EUHR_fake_script() -- KillCommand.LocalScript 
+coroutine.wrap(ZVPATPM_fake_script)()
+local function QBYSC_fake_script() -- KillCommand.LocalScript 
 	local script = Instance.new('LocalScript', KillCommand)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1680,8 +1680,8 @@ local function EUHR_fake_script() -- KillCommand.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(EUHR_fake_script)()
-local function YNNGLDL_fake_script() -- Cosmetics_2.LocalScript 
+coroutine.wrap(QBYSC_fake_script)()
+local function KDMA_fake_script() -- Cosmetics_2.LocalScript 
 	local script = Instance.new('LocalScript', Cosmetics_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1697,8 +1697,8 @@ local function YNNGLDL_fake_script() -- Cosmetics_2.LocalScript
 		script.Parent.Parent.Parent.Cosmetics.Visible = true
 	end)
 end
-coroutine.wrap(YNNGLDL_fake_script)()
-local function RZVE_fake_script() -- HideChat.LocalScript 
+coroutine.wrap(KDMA_fake_script)()
+local function LKWSHLI_fake_script() -- HideChat.LocalScript 
 	local script = Instance.new('LocalScript', HideChat)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1724,8 +1724,8 @@ local function RZVE_fake_script() -- HideChat.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(RZVE_fake_script)()
-local function SWJC_fake_script() -- Rejoin.LocalScript 
+coroutine.wrap(LKWSHLI_fake_script)()
+local function RVVS_fake_script() -- Rejoin.LocalScript 
 	local script = Instance.new('LocalScript', Rejoin)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1737,15 +1737,15 @@ local function SWJC_fake_script() -- Rejoin.LocalScript
 		})
 	end)
 end
-coroutine.wrap(SWJC_fake_script)()
-local function JVOEOEI_fake_script() -- Gradient.Dragify 
+coroutine.wrap(RVVS_fake_script)()
+local function BSXDMMK_fake_script() -- Gradient.Dragify 
 	local script = Instance.new('LocalScript', Gradient)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(JVOEOEI_fake_script)()
-local function VHAVDI_fake_script() -- Kill_aura.Kill aura 
+coroutine.wrap(BSXDMMK_fake_script)()
+local function VPALBK_fake_script() -- Kill_aura.Kill aura 
 	local script = Instance.new('LocalScript', Kill_aura)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1854,16 +1854,16 @@ local function VHAVDI_fake_script() -- Kill_aura.Kill aura
 		end
 	end)
 end
-coroutine.wrap(VHAVDI_fake_script)()
-local function ACOEEG_fake_script() -- OpenMisc.LocalScript 
+coroutine.wrap(VPALBK_fake_script)()
+local function VXCX_fake_script() -- OpenMisc.LocalScript 
 	local script = Instance.new('LocalScript', OpenMisc)
 
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.Gradient.Visible = not script.Parent.Parent.Gradient.Visible
 	end)
 end
-coroutine.wrap(ACOEEG_fake_script)()
-local function DHTKMB_fake_script() -- SomerandomGui.Misc menu loader :troll: 
+coroutine.wrap(VXCX_fake_script)()
+local function EBTWP_fake_script() -- SomerandomGui.Misc menu loader :troll: 
 	local script = Instance.new('LocalScript', SomerandomGui)
 
 		game.StarterGui:SetCore("SendNotification",  {
@@ -1873,15 +1873,15 @@ local function DHTKMB_fake_script() -- SomerandomGui.Misc menu loader :troll:
 			Duration = 10;
 		})
 end
-coroutine.wrap(DHTKMB_fake_script)()
-local function IKGPEG_fake_script() -- tweenedButton.Go down 
+coroutine.wrap(EBTWP_fake_script)()
+local function RIDBJIN_fake_script() -- tweenedButton.Go down 
 	local script = Instance.new('LocalScript', tweenedButton)
 
 	wait(5)
 	script.Parent:TweenPosition(UDim2.new(0.625, -171,0.643, -96),"Out","Elastic",1)
 end
-coroutine.wrap(IKGPEG_fake_script)()
-local function FLDRCCY_fake_script() -- tweenedButton.Size 
+coroutine.wrap(RIDBJIN_fake_script)()
+local function KNNN_fake_script() -- tweenedButton.Size 
 	local script = Instance.new('LocalScript', tweenedButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1895,4 +1895,4 @@ local function FLDRCCY_fake_script() -- tweenedButton.Size
 		script.Parent:Destroy()
 	end)
 end
-coroutine.wrap(FLDRCCY_fake_script)()
+coroutine.wrap(KNNN_fake_script)()
