@@ -27,6 +27,9 @@ local OpenMisc = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local tweenedButton = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
+local logoload = Instance.new("ImageLabel")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -248,7 +251,7 @@ tweenedButton.Name = "tweened Button"
 tweenedButton.Parent = SomerandomGui
 tweenedButton.AnchorPoint = Vector2.new(0.5, 0.5)
 tweenedButton.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
-tweenedButton.Position = UDim2.new(0.5, -3000, 0.5, -500)
+tweenedButton.Position = UDim2.new(0.400000006, 0, 0, -99)
 tweenedButton.Size = UDim2.new(0, 200, 0, 50)
 tweenedButton.Font = Enum.Font.SourceSans
 tweenedButton.Text = "Open Misc "
@@ -259,9 +262,35 @@ tweenedButton.TextWrapped = true
 
 UICorner_4.Parent = tweenedButton
 
+logoload.Name = "logoload"
+logoload.Parent = SomerandomGui
+logoload.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+logoload.BackgroundTransparency = 1.000
+logoload.Position = UDim2.new(0.419999987, 0, 0.159999996, 0)
+logoload.Size = UDim2.new(0, 300, 0, 300)
+logoload.Image = "http://www.roblox.com/asset/?id=3245539728"
+logoload.ImageTransparency = 1.000
+
+UICorner_5.CornerRadius = UDim.new(0, 150)
+UICorner_5.Parent = logoload
+
+TextLabel_2.Parent = logoload
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0, 0, 1, 0)
+TextLabel_2.Size = UDim2.new(0, 300, 0, 50)
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "Welcome to Somerandomgui! :)"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 30.000
+TextLabel_2.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_2.TextTransparency = 1.000
+TextLabel_2.TextWrapped = true
+
 -- Scripts:
 
-local function ZZWPAH_fake_script() -- Cosmetics.LocalScript 
+local function RYELNRC_fake_script() -- Cosmetics.LocalScript 
 	local script = Instance.new('LocalScript', Cosmetics)
 
 	local button = script.Parent
@@ -285,8 +314,8 @@ local function ZZWPAH_fake_script() -- Cosmetics.LocalScript
 	end
 	animate()
 end
-coroutine.wrap(ZZWPAH_fake_script)()
-local function AINALD_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(RYELNRC_fake_script)()
+local function NDTB_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -302,8 +331,8 @@ local function AINALD_fake_script() -- TextButton.LocalScript
 		script.Parent.Parent.Parent.Gradient.Visible = true
 	end)
 end
-coroutine.wrap(AINALD_fake_script)()
-local function CCDGL_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(NDTB_fake_script)()
+local function DXPMMXR_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1478,8 +1507,8 @@ local function CCDGL_fake_script() -- TextButton_2.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(CCDGL_fake_script)()
-local function DDROE_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(DXPMMXR_fake_script)()
+local function SLES_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1513,15 +1542,15 @@ local function DDROE_fake_script() -- TextButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DDROE_fake_script)()
-local function ZOGBFWO_fake_script() -- Cosmetics.Dragify 
+coroutine.wrap(SLES_fake_script)()
+local function OLPEJ_fake_script() -- Cosmetics.Dragify 
 	local script = Instance.new('LocalScript', Cosmetics)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(ZOGBFWO_fake_script)()
-local function ZEEBSU_fake_script() -- Gradient.keytoggle 
+coroutine.wrap(OLPEJ_fake_script)()
+local function WFAYGWS_fake_script() -- Gradient.keytoggle 
 	local script = Instance.new('LocalScript', Gradient)
 
 	function onKeyPress(inputObject, gameProcessedEvent)
@@ -1534,8 +1563,8 @@ local function ZEEBSU_fake_script() -- Gradient.keytoggle
 		end
 	end
 end
-coroutine.wrap(ZEEBSU_fake_script)()
-local function TORG_fake_script() -- Gradient.LocalScript 
+coroutine.wrap(WFAYGWS_fake_script)()
+local function PFAN_fake_script() -- Gradient.LocalScript 
 	local script = Instance.new('LocalScript', Gradient)
 
 	local button = script.Parent
@@ -1559,8 +1588,8 @@ local function TORG_fake_script() -- Gradient.LocalScript
 	end
 	animate()
 end
-coroutine.wrap(TORG_fake_script)()
-local function ZVPATPM_fake_script() -- AntiLag.LocalScript 
+coroutine.wrap(PFAN_fake_script)()
+local function FGBGY_fake_script() -- AntiLag.LocalScript 
 	local script = Instance.new('LocalScript', AntiLag)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1598,8 +1627,8 @@ local function ZVPATPM_fake_script() -- AntiLag.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZVPATPM_fake_script)()
-local function QBYSC_fake_script() -- KillCommand.LocalScript 
+coroutine.wrap(FGBGY_fake_script)()
+local function HSSC_fake_script() -- KillCommand.LocalScript 
 	local script = Instance.new('LocalScript', KillCommand)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1680,8 +1709,8 @@ local function QBYSC_fake_script() -- KillCommand.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(QBYSC_fake_script)()
-local function KDMA_fake_script() -- Cosmetics_2.LocalScript 
+coroutine.wrap(HSSC_fake_script)()
+local function GUCN_fake_script() -- Cosmetics_2.LocalScript 
 	local script = Instance.new('LocalScript', Cosmetics_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1697,8 +1726,8 @@ local function KDMA_fake_script() -- Cosmetics_2.LocalScript
 		script.Parent.Parent.Parent.Cosmetics.Visible = true
 	end)
 end
-coroutine.wrap(KDMA_fake_script)()
-local function LKWSHLI_fake_script() -- HideChat.LocalScript 
+coroutine.wrap(GUCN_fake_script)()
+local function DXQKRNY_fake_script() -- HideChat.LocalScript 
 	local script = Instance.new('LocalScript', HideChat)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1724,8 +1753,8 @@ local function LKWSHLI_fake_script() -- HideChat.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(LKWSHLI_fake_script)()
-local function RVVS_fake_script() -- Rejoin.LocalScript 
+coroutine.wrap(DXQKRNY_fake_script)()
+local function ESGL_fake_script() -- Rejoin.LocalScript 
 	local script = Instance.new('LocalScript', Rejoin)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1737,15 +1766,15 @@ local function RVVS_fake_script() -- Rejoin.LocalScript
 		})
 	end)
 end
-coroutine.wrap(RVVS_fake_script)()
-local function BSXDMMK_fake_script() -- Gradient.Dragify 
+coroutine.wrap(ESGL_fake_script)()
+local function BFNADRO_fake_script() -- Gradient.Dragify 
 	local script = Instance.new('LocalScript', Gradient)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(BSXDMMK_fake_script)()
-local function VPALBK_fake_script() -- Kill_aura.Kill aura 
+coroutine.wrap(BFNADRO_fake_script)()
+local function PLYXFHF_fake_script() -- Kill_aura.Kill aura 
 	local script = Instance.new('LocalScript', Kill_aura)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1854,16 +1883,16 @@ local function VPALBK_fake_script() -- Kill_aura.Kill aura
 		end
 	end)
 end
-coroutine.wrap(VPALBK_fake_script)()
-local function VXCX_fake_script() -- OpenMisc.LocalScript 
+coroutine.wrap(PLYXFHF_fake_script)()
+local function QKLYXOL_fake_script() -- OpenMisc.LocalScript 
 	local script = Instance.new('LocalScript', OpenMisc)
 
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.Gradient.Visible = not script.Parent.Parent.Gradient.Visible
 	end)
 end
-coroutine.wrap(VXCX_fake_script)()
-local function EBTWP_fake_script() -- SomerandomGui.Misc menu loader :troll: 
+coroutine.wrap(QKLYXOL_fake_script)()
+local function CVFI_fake_script() -- SomerandomGui.Misc menu loader :troll: 
 	local script = Instance.new('LocalScript', SomerandomGui)
 
 		game.StarterGui:SetCore("SendNotification",  {
@@ -1873,15 +1902,15 @@ local function EBTWP_fake_script() -- SomerandomGui.Misc menu loader :troll:
 			Duration = 10;
 		})
 end
-coroutine.wrap(EBTWP_fake_script)()
-local function RIDBJIN_fake_script() -- tweenedButton.Go down 
+coroutine.wrap(CVFI_fake_script)()
+local function ETZXEC_fake_script() -- tweenedButton.Go down 
 	local script = Instance.new('LocalScript', tweenedButton)
 
-	wait(5)
+	wait(10)
 	script.Parent:TweenPosition(UDim2.new(0.625, -171,0.643, -96),"Out","Elastic",1)
 end
-coroutine.wrap(RIDBJIN_fake_script)()
-local function KNNN_fake_script() -- tweenedButton.Size 
+coroutine.wrap(ETZXEC_fake_script)()
+local function NSLFPS_fake_script() -- tweenedButton.Size 
 	local script = Instance.new('LocalScript', tweenedButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1895,4 +1924,217 @@ local function KNNN_fake_script() -- tweenedButton.Size
 		script.Parent:Destroy()
 	end)
 end
-coroutine.wrap(KNNN_fake_script)()
+coroutine.wrap(NSLFPS_fake_script)()
+local function EWMLG_fake_script() -- TextLabel_2.RainbowText 
+	local script = Instance.new('Script', TextLabel_2)
+
+	while true do
+		script.Parent.TextColor3 = Color3.new(1,0,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.2,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.3,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.4,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.5,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.6,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.7,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.8,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0.9,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.9,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.8,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.7,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.6,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.5,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.4,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.3,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.2,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.1,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.2)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.3)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.4)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.5)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.6)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.7)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.8)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,0.9)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,1,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.9,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.8,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.7,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.6,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.5,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.4,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.3,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.2,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0.1,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.1,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.2,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.3,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.4,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.5,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.6,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.7,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.8,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(0.9,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,1)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.9)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.8)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.7)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.6)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.5)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.4)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.3)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.2)
+		wait(0.01)
+		script.Parent.TextColor3 = Color3.new(1,0,0.1)
+		wait(0.01)
+	end
+	
+end
+coroutine.wrap(EWMLG_fake_script)()
+local function SZAY_fake_script() -- SomerandomGui.Animation 
+	local script = Instance.new('LocalScript', SomerandomGui)
+
+	--[[
+	DON'T TOUCH UNLESS YOU KNOW WHAT YOUR DOING!!!!
+	--]]
+	local LOGOLOAD = script.Parent.logoload
+	local LOGONAME = script.Parent.logoload.TextLabel
+	local blur = Instance.new("BlurEffect", game.Lighting) blur.Size = 0
+	local Culor = Instance.new("ColorCorrectionEffect", game.Lighting)
+	local TweenService = game:GetService("TweenService")
+	local CULOR1 = TweenService:Create(
+		Culor,
+		TweenInfo.new(1),
+		{
+			TintColor = Color3.fromRGB(0, 0, 0)
+		}
+	)
+	local CULOR2 = TweenService:Create(
+		Culor,
+		TweenInfo.new(1),
+		{
+			TintColor = Color3.fromRGB(255, 255, 255)
+		}
+	)
+	local BLUR1 = TweenService:Create(
+		blur,
+		TweenInfo.new(1),
+		{
+			Size = 24 
+		}
+	)
+	local BLUR2 = TweenService:Create(
+		blur,
+		TweenInfo.new(1),
+		{
+			Size = 0 
+		}
+	)
+	local LOGOLOAD1 = TweenService:Create(
+		LOGOLOAD,
+		TweenInfo.new(1),
+		{
+			ImageTransparency = 0 
+		}
+	)
+	local LOGONAME1 = TweenService:Create(
+		LOGONAME,
+		TweenInfo.new(1),
+		{
+			TextTransparency = 0 
+		}
+	)
+	local LOGOLOAD2 = TweenService:Create(
+		LOGOLOAD,
+		TweenInfo.new(1),
+		{
+			ImageTransparency = 1 
+		}
+	)
+	local LOGONAME2 = TweenService:Create(
+		LOGONAME,
+		TweenInfo.new(1),
+		{
+			TextTransparency = 1 
+		}
+	)
+	wait(2)
+	BLUR1:Play()
+	CULOR1:Play()
+	wait(1)
+	LOGOLOAD1:Play()
+	LOGONAME1:Play()
+	wait(2)
+	LOGOLOAD2:Play()
+	LOGONAME2:Play()
+	wait(1)
+	CULOR2:Play()
+	BLUR2:Play()
+	wait(1)
+	Culor:Destroy()
+	blur:Destroy()
+	script:Destroy()
+end
+coroutine.wrap(SZAY_fake_script)()
