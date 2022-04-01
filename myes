@@ -219,6 +219,9 @@ wait(0.5)
                             game:GetService("ReplicatedStorage").Remotes.CharaMoves:InvokeServer(unpack(args))
 Hum.HipHeight = 0
 task.wait(7)
+
+
+
 for i = 0.1, 99 do
     game.StarterGui:SetCore(
         "SendNotification",
@@ -250,7 +253,7 @@ task.wait(4)
 -- Version: 3.2
 
 -- Instances:
-
+local Sound = Instance.new("Sound")
 local Skid = Instance.new("ScreenGui")
 local ImageLabel = Instance.new("ImageLabel")
 local TextLabel = Instance.new("TextLabel")
@@ -264,10 +267,18 @@ local UIGridLayout = Instance.new("UIGridLayout")
 
 --Properties:
 
+
+
 Skid.Name = "Skid!"
 Skid.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Skid.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Skid.ResetOnSpawn = false
+
+Sound.Name = "Skid Detected"
+Sound.Parent = Skid
+Sound.Playing = true
+Sound.Volume = 10
+Sound.Looped = true
 
 ImageLabel.Parent = Skid
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -337,6 +348,7 @@ game.Players.LocalPlayer.PlayerGui["Skid!"].Skid1.Skid:Clone()
 	end
 end
 coroutine.wrap(AZDMAXF_fake_script)()
+
 
 
 
