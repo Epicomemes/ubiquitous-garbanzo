@@ -30,6 +30,27 @@
     )
 
     wait(7)
+    
+        game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, true)
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:Destroy()
+    game.ReplicatedStorage.Remotes.Functions:InvokeServer({getrenv()._G.Pass, "ChangeSetting", "MorphEnabled", true})
+    game.Players.LocalPlayer.PlayerGui.CharacterSelection.Character.Value = "Chara" --Example character
+    wait(1)
+    game.Players.LocalPlayer.Character.Head.HealthBar.Frame:Destroy()
+    game.Players.LocalPlayer.Backpack:WaitForChild("Main").CharaMoves.Animations.Idle.AnimationId =
+        "rbxassetid://6136039008"
+    game.Players.LocalPlayer.Backpack.Main.CharaMoves.ModuleScript.Animations.BladesCombat.Light1.AnimationId =
+        "rbxassetid://6154047231"
+    game.Players.LocalPlayer.Backpack.Main.CharaMoves.ModuleScript.Animations.BladesCombat.Light2.AnimationId =
+        "rbxassetid://6154049326"
+    game.Players.LocalPlayer.Backpack.Main.CharaMoves.ModuleScript.Animations.BladesCombat.Light3.AnimationId =
+        "rbxassetid://6154050876"
+    game.Players.LocalPlayer.Backpack.Main.CharaMoves.ModuleScript.Animations.BladesCombat.Light4.AnimationId =
+        "rbxassetid://6154055740"
+    game.Players.LocalPlayer.Backpack.Main.CharaMoves.ModuleScript.Animations.BladesCombat.Light5.AnimationId =
+        "rbxassetid://6154060166"
+    game.Players.LocalPlayer.Backpack.Main.CharaMoves.ModuleScript.Animations.BladesCombat.Light6.AnimationId =
+        "rbxassetid://4456901030"
 
     game:GetService("StarterGui"):SetCore(
         "ChatMakeSystemMessage",
