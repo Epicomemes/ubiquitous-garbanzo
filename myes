@@ -1,0 +1,348 @@
+    game.StarterGui:SetCore(
+        "SendNotification",
+        {
+            Title = "Loading Script!",
+            Text = "Also When you get kicked for no. just rejoin it is a hide name problem i cant fix :/ welp have fun using Simulacra, " ..
+                game.Players.LocalPlayer.DisplayName,
+            Icon = game.Players:GetUserThumbnailAsync(
+                game.Players.LocalPlayer.UserId,
+                "HeadShot",
+                Enum.ThumbnailSize.Size100x100
+            ),
+            Duration = 10
+        }
+    )
+
+    game.StarterGui:SetCore(
+        "SendNotification",
+        {
+            Title = "Controls!",
+            Text = [[beta v1 attack (will be more) 
+                        z attack only.]] ..
+                game.Players.LocalPlayer.DisplayName,
+            Icon = game.Players:GetUserThumbnailAsync(
+                game.Players.LocalPlayer.UserId,
+                "HeadShot",
+                Enum.ThumbnailSize.Size100x100
+            ),
+            Duration = 99999999999999999999999999999
+        }
+    )
+
+    wait(7)
+
+    game:GetService("StarterGui"):SetCore(
+        "ChatMakeSystemMessage",
+        {Text = "mmm yes pet froge azertyuiopqsdfghjklmwxcvbn", Color = Color3.fromRGB(85, 0, 127)}
+    )
+    game:GetService("StarterGui"):SetCore(
+        "ChatMakeSystemMessage",
+        {Text = "Thanks For Using My Simulacra Custom!", Color = Color3.fromRGB(85, 0, 127)}
+    )
+
+    local mouse = game.Players.LocalPlayer:GetMouse()
+    mouse.KeyDown:Connect(
+        function(k)
+    if k == "z" then
+local Hum = game.Players.LocalPlayer.Character.Humanoid
+              local Anim = Instance.new("Animation")
+                Anim.AnimationId = "rbxassetid://4300091335"
+                local k = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+                k:Play()
+                k:AdjustSpeed(1)
+wait(0.2)
+        local A_1 = getrenv()._G.Pass
+        local A_2 = game.Players.LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value
+        local A_3 = {
+            ["Type"] = "Normal",
+            ["HitEffect"] = "LightHitEffect",
+            ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.SpGrab,
+            ["Velocity"] = Vector3.new(0, 50, 0),
+            ["BlockAble"] = false,
+            ["CameraShake"] = "BigExplosion",
+            ["HitTime"] = 1,
+            ["CombatInv"] = true,
+            ["VictimCFrame"] = CFrame.new(Vector3.new(0, 0, 0) --[[Vector3]], Vector3.new(0, 0, 0)  --[[Vector3]]),
+            ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knife_Slash,
+            ["Damage"] = 10
+        }
+    local Event = game:GetService("ReplicatedStorage").Remotes.Damage
+    Event:InvokeServer(A_1, A_2, A_3)
+Hum.HipHeight = 55
+wait(1.2)
+              local Anim = Instance.new("Animation")
+                Anim.AnimationId = "rbxassetid://4929661098"
+                local k = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+                k:Play()
+                k:AdjustSpeed(1)
+        local A_1 = getrenv()._G.Pass
+        local A_2 = game.Players.LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value
+        local A_3 = {
+            ["Type"] = "Normal",
+            ["HitEffect"] = "LightHitEffect",
+            ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.SpGrab,
+            ["Velocity"] = Vector3.new(0, 0.5, 0),
+            ["BlockAble"] = false,
+            ["CameraShake"] = "BigExplosion",
+            ["HitTime"] = 1,
+            ["CombatInv"] = true,
+            ["VictimCFrame"] = CFrame.new(Vector3.new(0, 0, 0) --[[Vector3]], Vector3.new(0, 0, 0)  --[[Vector3]]),
+            ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knife_Slash,
+            ["Damage"] = 10
+        }
+    local Event = game:GetService("ReplicatedStorage").Remotes.Damage
+    Event:InvokeServer(A_1, A_2, A_3)
+wait(0.5)
+              local Anim = Instance.new("Animation")
+                Anim.AnimationId = "rbxassetid://4929676573"
+                local k = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+                k:Play()
+                k:AdjustSpeed(1)
+        local A_1 = getrenv()._G.Pass
+        local A_2 = game.Players.LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value
+        local A_3 = {
+            ["Type"] = "Normal",
+            ["HitEffect"] = "LightHitEffect",
+            ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.SpGrab,
+            ["Velocity"] = Vector3.new(0, 0.5, 0),
+            ["BlockAble"] = false,
+            ["CameraShake"] = "BigExplosion",
+            ["HitTime"] = 1,
+            ["CombatInv"] = true,
+            ["VictimCFrame"] = CFrame.new(Vector3.new(0, 0, 0) --[[Vector3]], Vector3.new(0, 0, 0)  --[[Vector3]]),
+            ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knife_Slash,
+            ["Damage"] = 10
+        }
+    local Event = game:GetService("ReplicatedStorage").Remotes.Damage
+    Event:InvokeServer(A_1, A_2, A_3)
+wait(0.5)
+              local Anim = Instance.new("Animation")
+                Anim.AnimationId = "rbxassetid://4929681477"
+                local k = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+                k:Play()
+                k:AdjustSpeed(1)
+        local A_1 = getrenv()._G.Pass
+        local A_2 = game.Players.LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value
+        local A_3 = {
+            ["Type"] = "Normal",
+            ["HitEffect"] = "LightHitEffect",
+            ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.SpGrab,
+            ["Velocity"] = Vector3.new(0, 0.5, 0),
+            ["BlockAble"] = false,
+            ["CameraShake"] = "BigExplosion",
+            ["HitTime"] = 1,
+            ["CombatInv"] = true,
+            ["VictimCFrame"] = CFrame.new(Vector3.new(0, 0, 0) --[[Vector3]], Vector3.new(0, 0, 0)  --[[Vector3]]),
+            ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knife_Slash,
+            ["Damage"] = 10
+        }
+    local Event = game:GetService("ReplicatedStorage").Remotes.Damage
+    Event:InvokeServer(A_1, A_2, A_3)
+wait(0.5)
+              local Anim = Instance.new("Animation")
+                Anim.AnimationId = "rbxassetid://4300200684"
+                local k = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+                k:Play()
+                k:AdjustSpeed(1)
+        local A_1 = getrenv()._G.Pass
+        local A_2 = game.Players.LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value
+        local A_3 = {
+            ["Type"] = "Knockback",
+            ["HitEffect"] = "LightHitEffect",
+            ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.SpGrab,
+            ["Velocity"] = Vector3.new(0, -15, -60),
+            ["BlockAble"] = false,
+            ["CameraShake"] = "BigExplosion",
+            ["HitTime"] = 1,
+            ["CombatInv"] = true,
+            ["VictimCFrame"] = CFrame.new(Vector3.new(0, 0, 0) --[[Vector3]], Vector3.new(0, 0, 0)  --[[Vector3]]),
+            ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knife_Slash,
+            ["Damage"] = 40
+        }
+    local Event = game:GetService("ReplicatedStorage").Remotes.Damage
+    Event:InvokeServer(A_1, A_2, A_3)
+wait(0.5)
+               local args = {
+                    [1] = {
+                        [1] = getrenv()._G.Pass,
+                        [2] = "KnifeProjectileOrange",
+                        [3] = "Spawn",
+                        [4] = Vector3.new(9,15,10), 
+                        [6] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 1 + Vector3.new(0,0,0), 
+                                },
+                            }
+
+                            game:GetService("ReplicatedStorage").Remotes.CharaMoves:InvokeServer(unpack(args))
+               local args = {
+                    [1] = {
+                        [1] = getrenv()._G.Pass,
+                        [2] = "KnifeProjectileOrange",
+                        [3] = "Spawn",
+                        [4] = Vector3.new(9,15,10), 
+                        [6] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 1 + Vector3.new(0,0,0), 
+                                },
+                            }
+
+                            game:GetService("ReplicatedStorage").Remotes.CharaMoves:InvokeServer(unpack(args))
+               local args = {
+                    [1] = {
+                        [1] = getrenv()._G.Pass,
+                        [2] = "KnifeProjectileOrange",
+                        [3] = "Spawn",
+                        [4] = Vector3.new(9,15,10), 
+                        [6] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 1 + Vector3.new(0,0,0), 
+                                },
+                            }
+
+                            game:GetService("ReplicatedStorage").Remotes.CharaMoves:InvokeServer(unpack(args))
+               local args = {
+                    [1] = {
+                        [1] = getrenv()._G.Pass,
+                        [2] = "KnifeProjectileOrange",
+                        [3] = "Spawn",
+                        [4] = Vector3.new(9,15,10), 
+                        [6] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 1 + Vector3.new(0,0,0), 
+                                },
+                            }
+
+                            game:GetService("ReplicatedStorage").Remotes.CharaMoves:InvokeServer(unpack(args))
+               local args = {
+                    [1] = {
+                        [1] = getrenv()._G.Pass,
+                        [2] = "KnifeProjectileOrange",
+                        [3] = "Spawn",
+                        [4] = Vector3.new(9,15,10), 
+                        [6] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 1 + Vector3.new(0,0,0), 
+                                },
+                            }
+
+                            game:GetService("ReplicatedStorage").Remotes.CharaMoves:InvokeServer(unpack(args))
+Hum.HipHeight = 0
+task.wait(7)
+for i = 0.1, 99 do
+    game.StarterGui:SetCore(
+        "SendNotification",
+        {
+            Title = "Controls!",
+            Text = "Skid! Hahahahahahahahahahahahaha... i don't like you here Lmao" ..
+                game.Players.LocalPlayer.DisplayName,
+            Icon = game.Players:GetUserThumbnailAsync(
+                game.Players.LocalPlayer.UserId,
+                "HeadShot",
+                Enum.ThumbnailSize.Size100x100
+            ),
+            Duration = 99999999999999999999999999999
+        }
+    )
+end
+
+for i = 0.1, 6 do
+local args = {
+    [1] = "i'm a skid!",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+
+task.wait(4)
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Skid = Instance.new("ScreenGui")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local TextLabel_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local Skid1 = Instance.new("Frame")
+local Skid_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local UIGridLayout = Instance.new("UIGridLayout")
+
+--Properties:
+
+Skid.Name = "Skid!"
+Skid.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Skid.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Skid.ResetOnSpawn = false
+
+ImageLabel.Parent = Skid
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Size = UDim2.new(1, 0, 0.99999994, 0)
+ImageLabel.Image = "rbxassetid://3861487543"
+
+TextLabel.Parent = Skid
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.228645831, 0, 0.110864744, 0)
+TextLabel.Size = UDim2.new(0, 1186, 0, 606)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Skid! HAHAHAHA"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UITextSizeConstraint.Parent = TextLabel
+
+TextLabel_2.Parent = Skid
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.228645831, 0, 0.284922391, 0)
+TextLabel_2.Size = UDim2.new(0, 1186, 0, 449)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "NO'ONE LIKES YOU <3"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UITextSizeConstraint_2.Parent = TextLabel_2
+
+Skid1.Name = "Skid1"
+Skid1.Parent = Skid
+Skid1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Skid1.BackgroundTransparency = 1.000
+Skid1.Size = UDim2.new(0, 1852, 0, 855)
+
+Skid_2.Name = "Skid"
+Skid_2.Parent = Skid1
+Skid_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Skid_2.BackgroundTransparency = 1.000
+Skid_2.Size = UDim2.new(0, 200, 0, 50)
+Skid_2.Font = Enum.Font.SourceSans
+Skid_2.Text = "Skid!"
+Skid_2.TextColor3 = Color3.fromRGB(255, 5, 5)
+Skid_2.TextScaled = true
+Skid_2.TextSize = 14.000
+Skid_2.TextWrapped = true
+
+UITextSizeConstraint_3.Parent = Skid_2
+UITextSizeConstraint_3.MaxTextSize = 58
+
+UIGridLayout.Parent = Skid1
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+-- Scripts:
+
+local function AZDMAXF_fake_script() -- Skid1.LocalScript 
+	local script = Instance.new('LocalScript', Skid1)
+
+	while true do
+		wait(1)
+game.Players.LocalPlayer.PlayerGui["Skid!"].Skid1.Skid:Clone()
+	end
+end
+coroutine.wrap(AZDMAXF_fake_script)()
+
+
+
+end
+end
+end
+)
+
+print("hi")
