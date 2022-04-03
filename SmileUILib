@@ -1,0 +1,347 @@
+local Library = {}
+
+
+function Library:Createinterface()
+    local Smile = Instance.new("ScreenGui")
+    local bORD = Instance.new("Frame")
+    local UICorner = Instance.new("UICorner")
+    local Main = Instance.new("Frame")
+    local UICorner_2 = Instance.new("UICorner")
+    local Name = Instance.new("TextLabel")
+    local Time = Instance.new("TextLabel")
+    local Settingsandcred = Instance.new("Frame")
+    local UICorner_3 = Instance.new("UICorner")
+    local Line = Instance.new("Frame")
+    local settings = Instance.new("ImageButton")
+    local Line_2 = Instance.new("Frame")
+    local TabHolder = Instance.new("ScrollingFrame")
+    local UIListLayout = Instance.new("UIListLayout")
+    local ERGERZGFE = Instance.new("Frame")
+    local UICorner_4 = Instance.new("UICorner")
+    local Gobck = Instance.new("TextButton")
+    local Name_2 = Instance.new("TextLabel")
+    local Set = Instance.new("ScrollingFrame")
+    local ThemeHolder = Instance.new("Frame")
+    local UICorner_5 = Instance.new("UICorner")
+    local TextLabel = Instance.new("TextLabel")
+    local ScrollingFrame = Instance.new("ScrollingFrame")
+    local UIListLayout_2 = Instance.new("UIListLayout")
+    local Aqua = Instance.new("TextButton")
+    local UICorner_6 = Instance.new("UICorner")
+    local Rust = Instance.new("TextButton")
+    local UICorner_7 = Instance.new("UICorner")
+    --Properties:
+
+Smile.Name = "Smile"
+Smile.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Smile.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+bORD.Name = "bORD"
+bORD.Parent = Smile
+bORD.BackgroundColor3 = Color3.fromRGB(122, 147, 170)
+bORD.Position = UDim2.new(0.502083302, -282, 0.503325939, -192)
+bORD.Size = UDim2.new(0, 556, 0, 378)
+
+UICorner.CornerRadius = UDim.new(0, 69)
+UICorner.Parent = bORD
+
+Main.Name = "Main"
+Main.Parent = bORD
+Main.BackgroundColor3 = Color3.fromRGB(95, 115, 132)
+Main.ClipsDescendants = true
+Main.Position = UDim2.new(0.517798245, -282, 0.52277714, -192)
+Main.Size = UDim2.new(0, 543, 0, 365)
+
+UICorner_2.CornerRadius = UDim.new(0, 69)
+UICorner_2.Parent = Main
+
+Name.Name = "Name"
+Name.Parent = Main
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.BackgroundTransparency = 1.000
+Name.Position = UDim2.new(0.191528544, 0, 0.0438356176, 0)
+Name.Size = UDim2.new(0, 332, 0, 44)
+Name.Font = Enum.Font.SourceSans
+Name.Text = "Nil"
+Name.TextColor3 = Color3.fromRGB(129, 146, 255)
+Name.TextScaled = true
+Name.TextSize = 14.000
+Name.TextWrapped = true
+
+Time.Name = "Time"
+Time.Parent = Main
+Time.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Time.BackgroundTransparency = 1.000
+Time.Position = UDim2.new(0, 0, 0.216438353, 0)
+Time.Size = UDim2.new(0, 543, 0, 28)
+Time.Font = Enum.Font.SourceSans
+Time.Text = "Nil"
+Time.TextColor3 = Color3.fromRGB(129, 146, 255)
+Time.TextScaled = true
+Time.TextSize = 14.000
+Time.TextWrapped = true
+
+Settingsandcred.Name = "Settings and cred"
+Settingsandcred.Parent = Main
+Settingsandcred.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Settingsandcred.BackgroundTransparency = 0.500
+Settingsandcred.Position = UDim2.new(-0.00200000009, 0, 0.310000002, 0)
+Settingsandcred.Size = UDim2.new(0, 542, 0, 27)
+
+UICorner_3.CornerRadius = UDim.new(0, 99)
+UICorner_3.Parent = Settingsandcred
+
+Line.Name = "Line"
+Line.Parent = Settingsandcred
+Line.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Line.BackgroundTransparency = 0.700
+Line.BorderSizePixel = 0
+Line.Position = UDim2.new(-0.769797325, 0, 0.899999976, 3)
+Line.Size = UDim2.new(0, 1608, 0, 1)
+
+settings.Name = "settings"
+settings.Parent = Settingsandcred
+settings.AnchorPoint = Vector2.new(0.5, 0.5)
+settings.BackgroundTransparency = 1.000
+settings.Position = UDim2.new(0.976014733, 0, 0.5, 0)
+settings.Size = UDim2.new(0, 25, 0, 25)
+settings.ZIndex = 2
+settings.Image = "rbxassetid://3926307971"
+settings.ImageRectOffset = Vector2.new(324, 124)
+settings.ImageRectSize = Vector2.new(36, 36)
+
+Line_2.Name = "Line"
+Line_2.Parent = Main
+Line_2.BackgroundColor3 = Color3.fromRGB(174, 213, 255)
+Line_2.BorderSizePixel = 0
+Line_2.Position = UDim2.new(-0.769797325, 0, 0.293150693, 0)
+Line_2.Size = UDim2.new(0, 1608, 0, 1)
+
+TabHolder.Name = "Tab Holder"
+TabHolder.Parent = Main
+TabHolder.Active = true
+TabHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TabHolder.BackgroundTransparency = 1.000
+TabHolder.BorderSizePixel = 0
+TabHolder.Position = UDim2.new(0.134438306, 0, 0.405479461, 0)
+TabHolder.Size = UDim2.new(0, 392, 0, 209)
+TabHolder.CanvasPosition = Vector2.new(0, 24.4497643)
+
+UIListLayout.Parent = TabHolder
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 5)
+
+ERGERZGFE.Name = "ERGERZGFE"
+ERGERZGFE.Parent = bORD
+ERGERZGFE.BackgroundColor3 = Color3.fromRGB(95, 115, 132)
+ERGERZGFE.Position = UDim2.new(0.517798245, -282, 0.52277714, -192)
+ERGERZGFE.Size = UDim2.new(0, 543, 0, 365)
+ERGERZGFE.Visible = false
+
+UICorner_4.CornerRadius = UDim.new(0, 69)
+UICorner_4.Parent = ERGERZGFE
+
+Gobck.Name = "Gobck"
+Gobck.Parent = ERGERZGFE
+Gobck.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gobck.BackgroundTransparency = 1.000
+Gobck.Position = UDim2.new(0.626151025, 0, 0.854794502, 0)
+Gobck.Size = UDim2.new(0, 158, 0, 37)
+Gobck.Font = Enum.Font.SourceSans
+Gobck.Text = "Go Back."
+Gobck.TextColor3 = Color3.fromRGB(129, 146, 255)
+Gobck.TextScaled = true
+Gobck.TextSize = 14.000
+Gobck.TextWrapped = true
+
+Name_2.Name = "Name"
+Name_2.Parent = ERGERZGFE
+Name_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name_2.BackgroundTransparency = 1.000
+Name_2.Position = UDim2.new(0.191528544, 0, 0.0438356176, 0)
+Name_2.Size = UDim2.new(0, 332, 0, 44)
+Name_2.Font = Enum.Font.SourceSans
+Name_2.Text = "Settings"
+Name_2.TextColor3 = Color3.fromRGB(129, 146, 255)
+Name_2.TextScaled = true
+Name_2.TextSize = 14.000
+Name_2.TextWrapped = true
+
+Set.Name = "Set"
+Set.Parent = ERGERZGFE
+Set.Active = true
+Set.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Set.BackgroundTransparency = 1.000
+Set.BorderSizePixel = 0
+Set.Position = UDim2.new(0.160220996, 0, 0.16438356, 0)
+Set.Size = UDim2.new(0, 411, 0, 252)
+Set.CanvasSize = UDim2.new(0, 0, 3, 0)
+
+ThemeHolder.Name = "ThemeHolder"
+ThemeHolder.Parent = ERGERZGFE
+ThemeHolder.BackgroundColor3 = Color3.fromRGB(95, 115, 132)
+ThemeHolder.ClipsDescendants = true
+ThemeHolder.Position = UDim2.new(-0.296500921, 0, 0.0958904102, 0)
+ThemeHolder.Size = UDim2.new(0, 240, 0, 295)
+ThemeHolder.ZIndex = -99
+
+UICorner_5.CornerRadius = UDim.new(0, 99)
+UICorner_5.Parent = ThemeHolder
+
+TextLabel.Parent = ThemeHolder
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.122743994, 0, 0.0487114303, 0)
+TextLabel.Size = UDim2.new(0, 131, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Themes"
+TextLabel.TextColor3 = Color3.fromRGB(199, 133, 133)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+ScrollingFrame.Parent = ThemeHolder
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.122743987, 0, 0.21694915, 0)
+ScrollingFrame.Size = UDim2.new(0, 131, 0, 195)
+
+UIListLayout_2.Parent = ScrollingFrame
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0, 5)
+
+Aqua.Name = "Aqua"
+Aqua.Parent = ScrollingFrame
+Aqua.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Aqua.BackgroundTransparency = 0.500
+Aqua.Size = UDim2.new(0, 116, 0, 50)
+Aqua.Font = Enum.Font.SourceSans
+Aqua.Text = "Aqua"
+Aqua.TextColor3 = Color3.fromRGB(95, 115, 132)
+Aqua.TextSize = 14.000
+Aqua.TextStrokeColor3 = Color3.fromRGB(129, 146, 255)
+Aqua.TextStrokeTransparency = 0.000
+
+UICorner_6.CornerRadius = UDim.new(0, 99)
+UICorner_6.Parent = Aqua
+
+Rust.Name = "Rust"
+Rust.Parent = ScrollingFrame
+Rust.BackgroundColor3 = Color3.fromRGB(255, 209, 116)
+Rust.BackgroundTransparency = 0.500
+Rust.Size = UDim2.new(0, 116, 0, 50)
+Rust.Font = Enum.Font.SourceSans
+Rust.Text = "Rust"
+Rust.TextColor3 = Color3.fromRGB(0, 0, 0)
+Rust.TextSize = 14.000
+Rust.TextStrokeColor3 = Color3.fromRGB(220, 155, 25)
+Rust.TextStrokeTransparency = 0.000
+
+UICorner_7.CornerRadius = UDim.new(0, 99)
+UICorner_7.Parent = Rust
+
+-- Scripts:
+
+local function NFAJF_fake_script() -- Name.LocalScript 
+	local script = Instance.new('LocalScript', Name)
+
+	script.Parent.Text = "Hello!, "..game.Players.LocalPlayer.Name
+end
+coroutine.wrap(NFAJF_fake_script)()
+local function EUJUOM_fake_script() -- Time.LocalScript 
+	local script = Instance.new('LocalScript', Time)
+
+	while true do
+		task.wait(0.0001)
+		script.Parent.Text = "it's. "..os.date("%X")
+	end
+end
+coroutine.wrap(EUJUOM_fake_script)()
+local function FFRYGI_fake_script() -- settings.LocalScript 
+	local script = Instance.new('LocalScript', settings)
+
+	erg = game.Players.LocalPlayer.PlayerGui.Smile.bORD.ERGERZGFE
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.PlayerGui.Smile.bORD.Main.Visible = false
+		erg.Visible = true
+	end)
+end
+coroutine.wrap(FFRYGI_fake_script)()
+local function KNWBBMT_fake_script() -- bORD.drag 
+	local script = Instance.new('LocalScript', bORD)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(KNWBBMT_fake_script)()
+local function QIBCFMN_fake_script() -- ThemeHolder.Controller 
+	local script = Instance.new('LocalScript', ThemeHolder)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(QIBCFMN_fake_script)()
+local function OWQSMW_fake_script() -- Smile.LocalScript 
+	local script = Instance.new('LocalScript', Smile)
+
+	wait(6)
+	script.Parent.bORD:TweenSize(UDim2.new(0, 556,0, 378),"Out","Sine",1)
+end
+coroutine.wrap(OWQSMW_fake_script)()
+
+end
+
+return Library
