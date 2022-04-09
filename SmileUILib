@@ -1,8 +1,7 @@
--- Gui to Lua
--- Version: 3.2
+local Library = {}
 
--- Instances:
 
+function Library:Createinterface()
 local Smile = Instance.new("ScreenGui")
 local bORD = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -31,8 +30,6 @@ local Aqua = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
 local Rust = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
-
---Properties:
 
 Smile.Name = "Smile"
 Smile.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -351,3 +348,7 @@ local function WULYY_fake_script() -- Smile.LocalScript
 	script.Parent.bORD:TweenSize(UDim2.new(0, 556,0, 378),"Out","Sine",1)
 end
 coroutine.wrap(WULYY_fake_script)()
+
+end
+
+return Library
