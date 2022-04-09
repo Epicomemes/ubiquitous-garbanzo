@@ -1,36 +1,38 @@
-local Library = {}
+-- Gui to Lua
+-- Version: 3.2
 
+-- Instances:
 
-function Library:Createinterface()
-    local Smile = Instance.new("ScreenGui")
-    local bORD = Instance.new("Frame")
-    local UICorner = Instance.new("UICorner")
-    local Main = Instance.new("Frame")
-    local UICorner_2 = Instance.new("UICorner")
-    local Name = Instance.new("TextLabel")
-    local Time = Instance.new("TextLabel")
-    local Settingsandcred = Instance.new("Frame")
-    local UICorner_3 = Instance.new("UICorner")
-    local Line = Instance.new("Frame")
-    local settings = Instance.new("ImageButton")
-    local Line_2 = Instance.new("Frame")
-    local TabHolder = Instance.new("ScrollingFrame")
-    local UIListLayout = Instance.new("UIListLayout")
-    local ERGERZGFE = Instance.new("Frame")
-    local UICorner_4 = Instance.new("UICorner")
-    local Gobck = Instance.new("TextButton")
-    local Name_2 = Instance.new("TextLabel")
-    local Set = Instance.new("ScrollingFrame")
-    local ThemeHolder = Instance.new("Frame")
-    local UICorner_5 = Instance.new("UICorner")
-    local TextLabel = Instance.new("TextLabel")
-    local ScrollingFrame = Instance.new("ScrollingFrame")
-    local UIListLayout_2 = Instance.new("UIListLayout")
-    local Aqua = Instance.new("TextButton")
-    local UICorner_6 = Instance.new("UICorner")
-    local Rust = Instance.new("TextButton")
-    local UICorner_7 = Instance.new("UICorner")
-    --Properties:
+local Smile = Instance.new("ScreenGui")
+local bORD = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Main = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Name = Instance.new("TextLabel")
+local Time = Instance.new("TextLabel")
+local Settingsandcred = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Line = Instance.new("Frame")
+local settings = Instance.new("ImageButton")
+local Line_2 = Instance.new("Frame")
+local TabHolder = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local ERGERZGFE = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local Gobck = Instance.new("TextButton")
+local Name_2 = Instance.new("TextLabel")
+local Set = Instance.new("ScrollingFrame")
+local ThemeHolder = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local Aqua = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Rust = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+
+--Properties:
 
 Smile.Name = "Smile"
 Smile.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -125,7 +127,6 @@ TabHolder.BackgroundTransparency = 1.000
 TabHolder.BorderSizePixel = 0
 TabHolder.Position = UDim2.new(0.134438306, 0, 0.405479461, 0)
 TabHolder.Size = UDim2.new(0, 392, 0, 209)
-TabHolder.CanvasPosition = Vector2.new(0, 24.4497643)
 
 UIListLayout.Parent = TabHolder
 UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
@@ -244,13 +245,13 @@ UICorner_7.Parent = Rust
 
 -- Scripts:
 
-local function NFAJF_fake_script() -- Name.LocalScript 
+local function EQWL_fake_script() -- Name.LocalScript 
 	local script = Instance.new('LocalScript', Name)
 
 	script.Parent.Text = "Hello!, "..game.Players.LocalPlayer.Name
 end
-coroutine.wrap(NFAJF_fake_script)()
-local function EUJUOM_fake_script() -- Time.LocalScript 
+coroutine.wrap(EQWL_fake_script)()
+local function XDGM_fake_script() -- Time.LocalScript 
 	local script = Instance.new('LocalScript', Time)
 
 	while true do
@@ -258,8 +259,8 @@ local function EUJUOM_fake_script() -- Time.LocalScript
 		script.Parent.Text = "it's. "..os.date("%X")
 	end
 end
-coroutine.wrap(EUJUOM_fake_script)()
-local function FFRYGI_fake_script() -- settings.LocalScript 
+coroutine.wrap(XDGM_fake_script)()
+local function BIWQDUN_fake_script() -- settings.LocalScript 
 	local script = Instance.new('LocalScript', settings)
 
 	erg = game.Players.LocalPlayer.PlayerGui.Smile.bORD.ERGERZGFE
@@ -268,8 +269,8 @@ local function FFRYGI_fake_script() -- settings.LocalScript
 		erg.Visible = true
 	end)
 end
-coroutine.wrap(FFRYGI_fake_script)()
-local function KNWBBMT_fake_script() -- bORD.drag 
+coroutine.wrap(BIWQDUN_fake_script)()
+local function QWWQ_fake_script() -- bORD.drag 
 	local script = Instance.new('LocalScript', bORD)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -326,22 +327,27 @@ local function KNWBBMT_fake_script() -- bORD.drag
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(KNWBBMT_fake_script)()
-local function QIBCFMN_fake_script() -- ThemeHolder.Controller 
+coroutine.wrap(QWWQ_fake_script)()
+local function ZLATNNZ_fake_script() -- Gobck.LocalScript 
+	local script = Instance.new('LocalScript', Gobck)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.PlayerGui.Smile.bORD.ERGERZGFE.Visible = false
+		game.Players.LocalPlayer.PlayerGui.Smile.bORD.Main.Visible = true
+	end)
+end
+coroutine.wrap(ZLATNNZ_fake_script)()
+local function SKPABPJ_fake_script() -- ThemeHolder.Controller 
 	local script = Instance.new('LocalScript', ThemeHolder)
 
 	print("Hello world!")
 	
 end
-coroutine.wrap(QIBCFMN_fake_script)()
-local function OWQSMW_fake_script() -- Smile.LocalScript 
+coroutine.wrap(SKPABPJ_fake_script)()
+local function WULYY_fake_script() -- Smile.LocalScript 
 	local script = Instance.new('LocalScript', Smile)
 
 	wait(6)
 	script.Parent.bORD:TweenSize(UDim2.new(0, 556,0, 378),"Out","Sine",1)
 end
-coroutine.wrap(OWQSMW_fake_script)()
-
-end
-
-return Library
+coroutine.wrap(WULYY_fake_script)()
